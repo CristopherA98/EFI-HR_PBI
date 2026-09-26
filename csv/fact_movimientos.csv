@@ -1,0 +1,968 @@
+﻿id_movimiento,fecha,id_colaborador,id_area,id_cargo,id_sucursal,id_antiguedad,tipo_movimiento,motivo,salida_voluntaria
+1,2024-03-08,1,1,1,3,4,Salida,Fin de contrato,0
+2,2024-08-22,4,1,1,23,4,Salida,Renuncia,1
+3,2023-02-05,5,1,5,22,1,Salida,Renuncia,1
+4,2023-03-06,7,6,16,27,4,Salida,Renuncia,1
+5,2023-05-12,10,1,2,13,4,Salida,Renuncia,1
+6,2024-11-15,11,1,1,5,4,Salida,Renuncia,1
+7,2023-07-27,15,1,2,13,4,Salida,Renuncia,1
+8,2023-12-11,16,1,1,17,3,Salida,Fin de contrato,0
+9,2025-06-07,18,4,11,27,3,Salida,Renuncia,1
+10,2023-05-03,19,1,3,8,2,Salida,Fin de contrato,0
+11,2023-06-05,23,1,5,18,3,Salida,Renuncia,1
+12,2024-09-10,24,2,7,26,3,Salida,Renuncia,1
+13,2025-06-29,26,1,1,14,4,Salida,Renuncia,1
+14,2025-10-10,28,1,1,21,4,Salida,Renuncia,1
+15,2025-09-09,29,1,1,9,4,Salida,Renuncia,1
+16,2025-12-29,30,2,8,25,4,Salida,Renuncia,1
+17,2024-07-26,31,1,5,21,3,Salida,Renuncia,1
+18,2023-08-31,32,1,5,6,3,Salida,Fin de contrato,0
+19,2023-09-28,33,1,1,7,4,Salida,Fin de contrato,0
+20,2024-02-03,34,1,1,20,3,Salida,Renuncia,1
+21,2025-08-21,36,1,3,20,4,Salida,Renuncia,1
+22,2026-03-13,37,3,9,27,4,Salida,Renuncia,1
+23,2023-10-04,39,1,2,17,4,Salida,Renuncia,1
+24,2025-08-18,40,1,1,3,4,Salida,Renuncia,1
+25,2026-08-03,41,1,2,17,4,Salida,Renuncia,1
+26,2023-02-20,42,4,11,27,4,Salida,Renuncia,1
+27,2023-02-14,43,1,1,24,3,Salida,Renuncia,1
+28,2026-01-29,44,1,1,23,4,Salida,Desvinculación,0
+29,2023-02-05,45,1,1,5,4,Salida,Renuncia,1
+30,2026-03-04,46,1,4,14,4,Salida,Fin de contrato,0
+31,2025-12-06,47,1,1,5,4,Salida,Renuncia,1
+32,2025-10-31,48,1,5,12,4,Salida,Renuncia,1
+33,2025-03-26,55,2,6,26,4,Salida,Renuncia,1
+34,2024-01-24,57,1,1,23,4,Salida,Renuncia,1
+35,2023-06-19,60,1,2,16,4,Salida,Desvinculación,0
+36,2023-09-08,61,2,6,26,4,Salida,Fin de contrato,0
+37,2023-04-22,62,1,2,15,4,Salida,Renuncia,1
+38,2025-02-14,63,1,2,14,3,Salida,Fin de contrato,0
+39,2023-02-25,64,6,16,27,4,Salida,Renuncia,1
+40,2024-03-19,67,1,1,2,3,Salida,Renuncia,1
+41,2023-04-18,69,1,2,14,3,Salida,Renuncia,1
+42,2023-02-05,71,1,1,22,2,Salida,Fin de contrato,0
+43,2026-03-17,73,1,2,9,4,Salida,Renuncia,1
+44,2024-12-24,74,1,1,21,4,Salida,Renuncia,1
+45,2026-08-13,75,1,5,18,4,Salida,Renuncia,1
+46,2024-06-06,76,1,1,23,3,Salida,Renuncia,1
+47,2023-11-14,79,1,1,8,3,Salida,Renuncia,1
+48,2024-01-04,81,1,5,7,4,Salida,Renuncia,1
+49,2024-06-28,82,1,5,22,3,Salida,Fin de contrato,0
+50,2023-12-04,85,6,16,27,4,Salida,Desvinculación,0
+51,2024-04-14,86,1,5,14,3,Salida,Renuncia,1
+52,2024-05-26,87,2,7,26,4,Salida,Fin de contrato,0
+53,2024-02-05,91,2,6,26,4,Salida,Renuncia,1
+54,2023-12-31,92,6,15,27,4,Salida,Renuncia,1
+55,2026-08-29,93,1,4,14,4,Salida,Desvinculación,0
+56,2023-04-03,94,1,2,7,4,Salida,Renuncia,1
+57,2024-01-09,95,1,2,11,4,Salida,Renuncia,1
+58,2026-07-02,96,1,1,12,4,Salida,Desvinculación,0
+59,2026-08-08,99,1,2,5,4,Salida,Renuncia,1
+60,2025-11-29,101,5,13,27,4,Salida,Renuncia,1
+61,2025-08-08,103,1,2,23,4,Salida,Renuncia,1
+62,2024-02-17,105,1,3,5,4,Salida,Renuncia,1
+63,2023-03-23,107,1,2,2,4,Salida,Desvinculación,0
+64,2024-04-25,109,1,1,8,4,Salida,Fin de contrato,0
+65,2025-09-25,110,1,3,8,4,Salida,Renuncia,1
+66,2024-12-26,111,1,3,14,4,Salida,Renuncia,1
+67,2023-02-14,113,1,1,7,3,Salida,Desvinculación,0
+68,2023-04-11,114,1,2,15,2,Salida,Renuncia,1
+69,2023-07-13,115,1,1,13,3,Salida,Fin de contrato,0
+70,2023-07-21,116,1,3,19,4,Salida,Renuncia,1
+71,2024-09-08,117,5,13,27,4,Salida,Renuncia,1
+72,2026-02-17,118,1,4,15,4,Salida,Renuncia,1
+73,2024-06-03,120,1,1,17,4,Salida,Desvinculación,0
+74,2025-12-15,123,1,4,17,4,Salida,Renuncia,1
+75,2026-07-08,124,1,1,15,4,Salida,Renuncia,1
+76,2024-02-05,125,1,2,5,4,Salida,Renuncia,1
+77,2025-09-18,126,1,1,12,4,Salida,Renuncia,1
+78,2023-06-02,127,1,5,21,2,Salida,Renuncia,1
+79,2026-04-21,128,1,2,2,4,Salida,Renuncia,1
+80,2025-12-12,130,1,5,5,4,Salida,Renuncia,1
+81,2023-02-11,133,1,2,7,4,Salida,Renuncia,1
+82,2023-03-27,134,1,2,13,2,Salida,Fin de contrato,0
+83,2026-08-27,135,1,4,18,4,Salida,Renuncia,1
+84,2025-03-23,136,1,2,11,4,Salida,Renuncia,1
+85,2026-07-03,138,1,4,7,4,Salida,Renuncia,1
+86,2026-06-01,139,1,5,11,4,Salida,Renuncia,1
+87,2023-07-25,141,1,1,3,3,Salida,Renuncia,1
+88,2025-10-18,142,1,2,8,4,Salida,Renuncia,1
+89,2024-04-18,143,1,5,19,4,Salida,Renuncia,1
+90,2025-07-19,144,1,3,12,4,Salida,Desvinculación,0
+91,2024-03-27,146,1,1,4,4,Salida,Renuncia,1
+92,2024-10-14,147,1,2,21,4,Salida,Desvinculación,0
+93,2024-08-26,148,1,1,24,4,Salida,Renuncia,1
+94,2023-10-26,149,1,4,1,4,Salida,Renuncia,1
+95,2023-08-21,150,1,1,7,4,Salida,Fin de contrato,0
+96,2023-07-01,151,1,1,3,4,Salida,Fin de contrato,0
+97,2023-06-05,153,1,4,2,4,Salida,Renuncia,1
+98,2023-07-03,154,1,1,22,3,Salida,Fin de contrato,0
+99,2023-04-23,156,1,1,3,4,Salida,Renuncia,1
+100,2023-10-04,157,1,2,5,3,Salida,Fin de contrato,0
+101,2025-12-15,158,1,4,23,4,Salida,Fin de contrato,0
+102,2023-10-16,159,1,4,22,3,Salida,Renuncia,1
+103,2023-02-16,162,1,1,8,2,Salida,Fin de contrato,0
+104,2023-05-05,164,1,1,7,3,Salida,Renuncia,1
+105,2026-08-05,165,1,2,3,4,Salida,Fin de contrato,0
+106,2025-06-18,166,1,1,5,4,Salida,Renuncia,1
+107,2024-01-19,170,1,2,9,4,Salida,Renuncia,1
+108,2024-03-05,172,2,6,26,3,Salida,Desvinculación,0
+109,2023-07-11,173,1,3,15,4,Salida,Fin de contrato,0
+110,2025-04-20,174,1,2,16,4,Salida,Renuncia,1
+111,2023-02-05,175,1,5,13,3,Salida,Renuncia,1
+112,2023-09-02,177,1,1,15,4,Salida,Fin de contrato,0
+113,2024-03-02,178,1,5,8,4,Salida,Renuncia,1
+114,2024-09-28,179,2,7,25,4,Salida,Renuncia,1
+115,2024-01-01,182,1,1,23,4,Salida,Fin de contrato,0
+116,2025-07-03,183,6,15,27,4,Salida,Desvinculación,0
+117,2023-09-10,185,1,1,12,2,Salida,Renuncia,1
+118,2025-08-24,186,1,1,11,4,Salida,Renuncia,1
+119,2024-04-07,189,1,4,2,4,Salida,Fin de contrato,0
+120,2026-06-11,190,6,16,27,4,Salida,Fin de contrato,0
+121,2026-05-10,193,1,4,21,4,Salida,Desvinculación,0
+122,2024-11-21,194,1,1,11,4,Salida,Desvinculación,0
+123,2024-10-11,196,1,3,20,3,Salida,Fin de contrato,0
+124,2023-04-23,197,1,2,16,3,Salida,Renuncia,1
+125,2024-12-08,200,1,1,12,4,Salida,Renuncia,1
+126,2023-05-27,201,2,6,25,3,Salida,Renuncia,1
+127,2023-03-15,202,1,5,23,3,Salida,Fin de contrato,0
+128,2023-09-24,204,1,2,19,3,Salida,Renuncia,1
+129,2023-07-26,206,2,6,26,4,Salida,Fin de contrato,0
+130,2024-06-21,209,1,5,15,3,Salida,Renuncia,1
+131,2023-07-06,210,1,1,22,2,Salida,Renuncia,1
+132,2023-04-04,211,1,1,5,4,Salida,Fin de contrato,0
+133,2025-07-12,212,1,2,12,4,Salida,Renuncia,1
+134,2023-05-20,215,1,2,11,3,Salida,Desvinculación,0
+135,2023-11-12,217,1,5,9,2,Salida,Renuncia,1
+136,2024-05-01,218,1,1,3,3,Salida,Fin de contrato,0
+137,2024-11-12,219,1,2,3,4,Salida,Renuncia,1
+138,2024-02-25,220,1,2,9,3,Salida,Renuncia,1
+139,2025-06-09,221,1,2,11,4,Salida,Fin de contrato,0
+140,2026-08-18,222,1,2,4,4,Salida,Renuncia,1
+141,2023-12-10,223,4,11,27,3,Salida,Fin de contrato,0
+142,2025-03-10,225,1,2,2,4,Salida,Renuncia,1
+143,2025-10-03,226,1,1,23,4,Salida,Renuncia,1
+144,2023-08-06,228,1,5,8,4,Salida,Renuncia,1
+145,2024-06-05,231,1,2,9,3,Salida,Renuncia,1
+146,2023-02-05,232,1,2,15,4,Salida,Fin de contrato,0
+147,2023-02-15,234,1,2,7,3,Salida,Desvinculación,0
+148,2023-02-06,237,2,6,26,3,Salida,Fin de contrato,0
+149,2025-02-27,238,1,1,12,4,Salida,Renuncia,1
+150,2023-04-25,240,1,1,19,2,Salida,Fin de contrato,0
+151,2023-02-05,244,1,2,3,3,Salida,Renuncia,1
+152,2026-06-21,245,1,1,5,4,Salida,Renuncia,1
+153,2025-03-13,246,1,3,19,4,Salida,Renuncia,1
+154,2023-12-05,249,1,1,1,4,Salida,Fin de contrato,0
+155,2023-09-01,250,1,1,22,4,Salida,Fin de contrato,0
+156,2023-06-11,251,1,3,1,4,Salida,Renuncia,1
+157,2024-06-10,253,1,2,10,4,Salida,Renuncia,1
+158,2025-01-06,254,1,2,19,4,Salida,Fin de contrato,0
+159,2025-01-20,255,1,1,21,4,Salida,Desvinculación,0
+160,2025-02-17,258,1,4,23,4,Salida,Renuncia,1
+161,2023-03-02,260,1,1,24,2,Salida,Desvinculación,0
+162,2023-09-08,262,1,2,14,4,Salida,Renuncia,1
+163,2024-03-22,264,1,2,17,3,Salida,Renuncia,1
+164,2023-11-01,265,1,2,4,4,Salida,Renuncia,1
+165,2025-10-30,266,1,2,18,4,Salida,Fin de contrato,0
+166,2025-01-28,267,1,5,13,4,Salida,Fin de contrato,0
+167,2025-08-24,269,1,1,8,4,Salida,Renuncia,1
+168,2023-07-06,271,1,1,18,4,Salida,Renuncia,1
+169,2023-02-27,272,1,5,4,4,Salida,Renuncia,1
+170,2023-12-09,273,1,3,15,4,Salida,Renuncia,1
+171,2024-09-23,274,1,5,19,4,Salida,Renuncia,1
+172,2024-11-27,275,1,4,15,4,Salida,Renuncia,1
+173,2025-01-31,276,1,2,24,3,Salida,Renuncia,1
+174,2023-08-17,277,1,5,21,4,Salida,Renuncia,1
+175,2023-08-25,281,1,1,17,3,Salida,Renuncia,1
+176,2025-02-20,282,1,1,20,3,Salida,Renuncia,1
+177,2025-12-05,283,1,5,12,4,Salida,Fin de contrato,0
+178,2023-10-24,284,1,2,5,4,Salida,Fin de contrato,0
+179,2025-10-26,286,1,2,12,4,Salida,Renuncia,1
+180,2023-02-05,287,1,2,13,4,Salida,Fin de contrato,0
+181,2024-06-18,288,1,1,12,4,Salida,Desvinculación,0
+182,2026-04-10,290,1,3,3,4,Salida,Renuncia,1
+183,2025-03-07,293,1,1,23,4,Salida,Renuncia,1
+184,2026-05-02,294,1,1,1,4,Salida,Renuncia,1
+185,2023-04-30,296,1,1,3,2,Salida,Renuncia,1
+186,2025-08-21,297,1,5,5,4,Salida,Desvinculación,0
+187,2023-06-14,298,1,2,17,4,Salida,Desvinculación,0
+188,2026-03-10,301,1,5,1,4,Salida,Renuncia,1
+189,2023-08-19,302,1,2,2,4,Salida,Renuncia,1
+190,2023-07-25,305,1,2,1,4,Salida,Renuncia,1
+191,2023-02-05,308,1,3,16,2,Salida,Renuncia,1
+192,2023-05-26,311,1,3,5,3,Salida,Renuncia,1
+193,2024-06-05,312,1,1,21,4,Salida,Fin de contrato,0
+194,2023-07-12,313,1,3,24,3,Salida,Fin de contrato,0
+195,2024-08-08,315,1,1,14,4,Salida,Renuncia,1
+196,2023-02-05,316,1,1,24,3,Salida,Fin de contrato,0
+197,2023-09-03,317,1,1,18,3,Salida,Desvinculación,0
+198,2023-07-29,318,1,2,11,3,Salida,Renuncia,1
+199,2024-07-07,319,1,1,8,3,Salida,Fin de contrato,0
+200,2024-08-22,323,2,6,26,4,Salida,Fin de contrato,0
+201,2025-11-30,324,1,1,15,4,Salida,Fin de contrato,0
+202,2023-04-02,325,1,2,8,3,Salida,Renuncia,1
+203,2026-05-03,326,1,1,15,4,Salida,Fin de contrato,0
+204,2023-10-07,328,1,2,19,3,Salida,Renuncia,1
+205,2024-01-05,330,2,6,26,4,Salida,Renuncia,1
+206,2026-02-13,332,1,5,23,4,Salida,Renuncia,1
+207,2025-02-20,334,1,1,11,3,Salida,Renuncia,1
+208,2024-03-12,336,1,1,8,4,Salida,Renuncia,1
+209,2023-03-31,337,5,14,27,4,Salida,Fin de contrato,0
+210,2023-09-13,338,2,6,26,4,Salida,Renuncia,1
+211,2024-10-07,339,1,1,11,4,Salida,Renuncia,1
+212,2023-09-26,342,1,1,23,3,Salida,Fin de contrato,0
+213,2025-08-18,344,1,1,24,4,Salida,Renuncia,1
+214,2024-09-18,346,1,5,14,4,Salida,Renuncia,1
+215,2024-10-17,347,1,5,10,3,Salida,Renuncia,1
+216,2024-01-07,351,1,1,11,1,Ingreso,Nueva contratación,0
+217,2023-10-17,352,1,3,7,1,Ingreso,Nueva contratación,0
+218,2024-10-13,352,1,3,7,2,Salida,Fin de contrato,0
+219,2025-08-18,353,1,2,9,1,Ingreso,Nueva contratación,0
+220,2024-02-21,354,1,1,1,1,Ingreso,Nueva contratación,0
+221,2023-06-18,355,1,5,2,1,Ingreso,Nueva contratación,0
+222,2024-02-20,356,1,1,7,1,Ingreso,Nueva contratación,0
+223,2024-03-26,356,1,1,7,1,Salida,Renuncia,1
+224,2024-05-14,357,1,5,8,1,Ingreso,Nueva contratación,0
+225,2024-08-21,358,1,2,13,1,Ingreso,Nueva contratación,0
+226,2026-04-01,359,1,3,11,1,Ingreso,Nueva contratación,0
+227,2023-04-09,360,1,2,23,1,Ingreso,Nueva contratación,0
+228,2024-12-25,361,1,1,4,1,Ingreso,Nueva contratación,0
+229,2026-04-20,361,1,1,4,3,Salida,Renuncia,1
+230,2026-07-30,362,1,5,17,1,Ingreso,Nueva contratación,0
+231,2024-12-09,363,1,4,13,1,Ingreso,Nueva contratación,0
+232,2025-07-10,363,1,4,13,2,Salida,Renuncia,1
+233,2024-04-28,364,1,5,2,1,Ingreso,Nueva contratación,0
+234,2026-07-15,365,3,9,27,1,Ingreso,Nueva contratación,0
+235,2025-04-19,366,1,1,7,1,Ingreso,Nueva contratación,0
+236,2025-06-02,366,1,1,7,1,Salida,Renuncia,1
+237,2026-06-14,367,1,2,11,1,Ingreso,Nueva contratación,0
+238,2025-03-25,368,1,5,5,1,Ingreso,Nueva contratación,0
+239,2025-08-05,368,1,5,5,2,Salida,Renuncia,1
+240,2025-11-16,369,1,5,3,1,Ingreso,Nueva contratación,0
+241,2024-11-26,370,2,6,26,1,Ingreso,Nueva contratación,0
+242,2025-05-02,371,1,5,8,1,Ingreso,Nueva contratación,0
+243,2025-12-16,372,1,5,20,1,Ingreso,Nueva contratación,0
+244,2026-05-10,373,2,6,25,1,Ingreso,Nueva contratación,0
+245,2024-06-19,374,1,4,3,1,Ingreso,Nueva contratación,0
+246,2025-04-01,374,1,4,3,2,Salida,Renuncia,1
+247,2026-02-15,375,1,3,16,1,Ingreso,Nueva contratación,0
+248,2023-01-15,376,3,10,27,1,Ingreso,Nueva contratación,0
+249,2025-03-12,377,1,5,16,1,Ingreso,Nueva contratación,0
+250,2023-03-14,378,1,1,17,1,Ingreso,Nueva contratación,0
+251,2026-07-12,378,1,1,17,4,Salida,Renuncia,1
+252,2024-01-16,379,6,16,27,1,Ingreso,Nueva contratación,0
+253,2025-03-06,379,6,16,27,3,Salida,Renuncia,1
+254,2023-06-24,380,1,1,5,1,Ingreso,Nueva contratación,0
+255,2025-01-29,380,1,1,5,3,Salida,Renuncia,1
+256,2024-07-09,381,1,2,17,1,Ingreso,Nueva contratación,0
+257,2026-01-18,382,1,2,19,1,Ingreso,Nueva contratación,0
+258,2026-03-04,383,1,1,9,1,Ingreso,Nueva contratación,0
+259,2023-10-27,384,2,6,25,1,Ingreso,Nueva contratación,0
+260,2025-08-14,385,1,1,22,1,Ingreso,Nueva contratación,0
+261,2026-04-01,386,1,1,5,1,Ingreso,Nueva contratación,0
+262,2023-09-29,387,1,5,18,1,Ingreso,Nueva contratación,0
+263,2025-05-13,387,1,5,18,3,Salida,Renuncia,1
+264,2026-03-20,388,1,2,17,1,Ingreso,Nueva contratación,0
+265,2023-09-10,389,1,3,6,1,Ingreso,Nueva contratación,0
+266,2024-01-18,390,1,4,12,1,Ingreso,Nueva contratación,0
+267,2025-09-30,391,2,7,26,1,Ingreso,Nueva contratación,0
+268,2026-02-10,392,6,16,27,1,Ingreso,Nueva contratación,0
+269,2023-12-28,393,1,4,4,1,Ingreso,Nueva contratación,0
+270,2024-07-27,394,1,3,4,1,Ingreso,Nueva contratación,0
+271,2025-06-04,395,1,3,2,1,Ingreso,Nueva contratación,0
+272,2026-06-14,395,1,3,2,3,Salida,Renuncia,1
+273,2026-04-15,396,6,16,27,1,Ingreso,Nueva contratación,0
+274,2023-02-13,397,1,3,7,1,Ingreso,Nueva contratación,0
+275,2024-05-30,398,5,14,27,1,Ingreso,Nueva contratación,0
+276,2023-02-13,399,1,1,20,1,Ingreso,Nueva contratación,0
+277,2023-05-02,399,1,1,20,1,Salida,Fin de contrato,0
+278,2024-06-22,400,1,1,1,1,Ingreso,Nueva contratación,0
+279,2025-12-21,401,1,3,9,1,Ingreso,Nueva contratación,0
+280,2024-07-23,402,1,4,10,1,Ingreso,Nueva contratación,0
+281,2023-08-27,403,1,3,1,1,Ingreso,Nueva contratación,0
+282,2023-12-04,403,1,3,1,2,Salida,Fin de contrato,0
+283,2024-03-27,404,1,5,10,1,Ingreso,Nueva contratación,0
+284,2025-12-04,405,1,1,7,1,Ingreso,Nueva contratación,0
+285,2026-04-29,405,1,1,7,2,Salida,Renuncia,1
+286,2025-01-16,406,1,3,4,1,Ingreso,Nueva contratación,0
+287,2025-01-15,407,1,1,3,1,Ingreso,Nueva contratación,0
+288,2025-02-19,407,1,1,3,1,Salida,Fin de contrato,0
+289,2024-08-18,408,1,2,13,1,Ingreso,Nueva contratación,0
+290,2025-02-13,409,2,6,26,1,Ingreso,Nueva contratación,0
+291,2025-06-25,409,2,6,26,2,Salida,Fin de contrato,0
+292,2024-10-23,410,1,1,21,1,Ingreso,Nueva contratación,0
+293,2026-05-14,411,1,1,21,1,Ingreso,Nueva contratación,0
+294,2026-07-17,411,1,1,21,1,Salida,Renuncia,1
+295,2023-07-29,412,3,10,27,1,Ingreso,Nueva contratación,0
+296,2025-08-23,412,3,10,27,3,Salida,Renuncia,1
+297,2024-06-07,413,2,7,26,1,Ingreso,Nueva contratación,0
+298,2024-09-10,413,2,7,26,2,Salida,Renuncia,1
+299,2024-12-10,414,1,2,19,1,Ingreso,Nueva contratación,0
+300,2025-11-20,414,1,2,19,2,Salida,Renuncia,1
+301,2025-05-27,415,1,1,23,1,Ingreso,Nueva contratación,0
+302,2026-04-08,415,1,1,23,2,Salida,Renuncia,1
+303,2024-04-19,416,1,1,8,1,Ingreso,Nueva contratación,0
+304,2026-02-27,416,1,1,8,3,Salida,Renuncia,1
+305,2024-11-12,417,1,1,19,1,Ingreso,Nueva contratación,0
+306,2026-04-21,418,1,1,24,1,Ingreso,Nueva contratación,0
+307,2026-01-10,419,1,2,22,1,Ingreso,Nueva contratación,0
+308,2025-11-15,420,1,5,17,1,Ingreso,Nueva contratación,0
+309,2024-03-27,421,1,1,13,1,Ingreso,Nueva contratación,0
+310,2023-03-27,422,1,1,14,1,Ingreso,Nueva contratación,0
+311,2024-08-20,422,1,1,14,3,Salida,Renuncia,1
+312,2025-07-24,423,1,5,22,1,Ingreso,Nueva contratación,0
+313,2026-06-06,423,1,5,22,2,Salida,Renuncia,1
+314,2024-09-23,424,1,1,24,1,Ingreso,Nueva contratación,0
+315,2025-06-20,424,1,1,24,2,Salida,Renuncia,1
+316,2024-10-11,425,1,1,7,1,Ingreso,Nueva contratación,0
+317,2024-11-25,426,1,1,17,1,Ingreso,Nueva contratación,0
+318,2026-03-20,426,1,1,17,3,Salida,Renuncia,1
+319,2025-09-28,427,1,2,16,1,Ingreso,Nueva contratación,0
+320,2026-04-12,427,1,2,16,2,Salida,Renuncia,1
+321,2023-03-21,428,1,2,15,1,Ingreso,Nueva contratación,0
+322,2024-08-18,429,1,1,13,1,Ingreso,Nueva contratación,0
+323,2026-03-19,429,1,1,13,3,Salida,Renuncia,1
+324,2023-07-16,430,1,1,4,1,Ingreso,Nueva contratación,0
+325,2023-09-26,430,1,1,4,1,Salida,Renuncia,1
+326,2024-01-03,431,1,1,12,1,Ingreso,Nueva contratación,0
+327,2024-05-18,431,1,1,12,2,Salida,Renuncia,1
+328,2025-07-05,432,6,15,27,1,Ingreso,Nueva contratación,0
+329,2026-06-27,433,1,3,9,1,Ingreso,Nueva contratación,0
+330,2024-06-30,434,1,1,15,1,Ingreso,Nueva contratación,0
+331,2024-03-22,435,1,4,7,1,Ingreso,Nueva contratación,0
+332,2026-06-22,436,1,2,3,1,Ingreso,Nueva contratación,0
+333,2025-07-13,437,1,5,12,1,Ingreso,Nueva contratación,0
+334,2025-03-05,438,2,6,25,1,Ingreso,Nueva contratación,0
+335,2025-09-01,439,3,9,27,1,Ingreso,Nueva contratación,0
+336,2023-06-20,440,2,6,25,1,Ingreso,Nueva contratación,0
+337,2025-01-09,440,2,6,25,3,Salida,Renuncia,1
+338,2024-05-21,441,1,4,7,1,Ingreso,Nueva contratación,0
+339,2025-10-28,441,1,4,7,3,Salida,Renuncia,1
+340,2025-03-18,442,1,1,2,1,Ingreso,Nueva contratación,0
+341,2026-03-12,443,1,2,23,1,Ingreso,Nueva contratación,0
+342,2026-05-15,443,1,2,23,1,Salida,Fin de contrato,0
+343,2025-06-21,444,1,3,16,1,Ingreso,Nueva contratación,0
+344,2026-07-04,444,1,3,16,3,Salida,Renuncia,1
+345,2025-02-18,445,1,2,16,1,Ingreso,Nueva contratación,0
+346,2023-07-09,446,1,4,2,1,Ingreso,Nueva contratación,0
+347,2024-01-25,447,2,7,26,1,Ingreso,Nueva contratación,0
+348,2026-02-14,448,1,5,24,1,Ingreso,Nueva contratación,0
+349,2026-03-21,448,1,5,24,1,Salida,Fin de contrato,0
+350,2023-09-24,449,1,3,24,1,Ingreso,Nueva contratación,0
+351,2026-07-29,449,1,3,24,3,Salida,Desvinculación,0
+352,2026-02-26,450,2,7,26,1,Ingreso,Nueva contratación,0
+353,2026-06-03,451,1,1,23,1,Ingreso,Nueva contratación,0
+354,2024-03-31,452,1,3,21,1,Ingreso,Nueva contratación,0
+355,2023-12-03,453,1,5,5,1,Ingreso,Nueva contratación,0
+356,2024-11-06,453,1,5,5,2,Salida,Fin de contrato,0
+357,2024-08-23,454,1,2,21,1,Ingreso,Nueva contratación,0
+358,2025-01-04,454,1,2,21,2,Salida,Desvinculación,0
+359,2023-07-30,455,1,2,12,1,Ingreso,Nueva contratación,0
+360,2024-08-25,455,1,2,12,3,Salida,Renuncia,1
+361,2024-11-18,456,1,2,15,1,Ingreso,Nueva contratación,0
+362,2023-01-06,457,1,5,9,1,Ingreso,Nueva contratación,0
+363,2025-07-01,458,1,1,19,1,Ingreso,Nueva contratación,0
+364,2026-01-19,459,4,11,27,1,Ingreso,Nueva contratación,0
+365,2024-12-14,460,1,1,1,1,Ingreso,Nueva contratación,0
+366,2025-05-14,460,1,1,1,2,Salida,Renuncia,1
+367,2024-10-31,461,1,3,17,1,Ingreso,Nueva contratación,0
+368,2024-08-24,462,3,10,27,1,Ingreso,Nueva contratación,0
+369,2024-02-18,463,1,1,15,1,Ingreso,Nueva contratación,0
+370,2026-01-07,463,1,1,15,3,Salida,Renuncia,1
+371,2025-05-21,464,1,1,16,1,Ingreso,Nueva contratación,0
+372,2025-12-12,465,1,5,19,1,Ingreso,Nueva contratación,0
+373,2025-07-17,466,2,7,26,1,Ingreso,Nueva contratación,0
+374,2026-08-08,467,1,5,7,1,Ingreso,Nueva contratación,0
+375,2024-04-28,468,2,6,26,1,Ingreso,Nueva contratación,0
+376,2026-03-31,468,2,6,26,3,Salida,Renuncia,1
+377,2023-01-25,469,1,5,14,1,Ingreso,Nueva contratación,0
+378,2023-06-23,469,1,5,14,2,Salida,Renuncia,1
+379,2026-02-06,470,1,2,11,1,Ingreso,Nueva contratación,0
+380,2024-01-03,471,1,2,2,1,Ingreso,Nueva contratación,0
+381,2025-07-26,471,1,2,2,3,Salida,Renuncia,1
+382,2023-07-19,472,1,1,9,1,Ingreso,Nueva contratación,0
+383,2025-09-29,473,1,1,5,1,Ingreso,Nueva contratación,0
+384,2025-11-29,474,1,5,5,1,Ingreso,Nueva contratación,0
+385,2023-10-11,475,3,9,27,1,Ingreso,Nueva contratación,0
+386,2026-05-20,475,3,9,27,3,Salida,Renuncia,1
+387,2024-06-13,476,6,15,27,1,Ingreso,Nueva contratación,0
+388,2025-04-26,476,6,15,27,2,Salida,Renuncia,1
+389,2025-07-31,477,5,13,27,1,Ingreso,Nueva contratación,0
+390,2024-10-14,478,6,15,27,1,Ingreso,Nueva contratación,0
+391,2023-08-13,479,1,1,5,1,Ingreso,Nueva contratación,0
+392,2026-06-10,479,1,1,5,3,Salida,Renuncia,1
+393,2026-08-06,480,1,3,12,1,Ingreso,Nueva contratación,0
+394,2023-11-27,481,1,1,20,1,Ingreso,Nueva contratación,0
+395,2026-02-26,482,1,3,23,1,Ingreso,Nueva contratación,0
+396,2026-01-08,483,1,2,3,1,Ingreso,Nueva contratación,0
+397,2025-02-03,484,2,8,25,1,Ingreso,Nueva contratación,0
+398,2026-01-05,484,2,8,25,2,Salida,Renuncia,1
+399,2026-02-19,485,1,5,5,1,Ingreso,Nueva contratación,0
+400,2023-07-29,486,1,4,18,1,Ingreso,Nueva contratación,0
+401,2026-04-21,487,2,6,26,1,Ingreso,Nueva contratación,0
+402,2026-08-07,488,1,3,23,1,Ingreso,Nueva contratación,0
+403,2026-01-14,489,1,1,15,1,Ingreso,Nueva contratación,0
+404,2023-01-13,490,3,10,27,1,Ingreso,Nueva contratación,0
+405,2025-11-16,490,3,10,27,3,Salida,Renuncia,1
+406,2025-08-01,491,1,5,24,1,Ingreso,Nueva contratación,0
+407,2023-01-01,492,1,1,20,1,Ingreso,Nueva contratación,0
+408,2023-02-05,492,1,1,20,1,Salida,Fin de contrato,0
+409,2025-07-18,493,1,5,18,1,Ingreso,Nueva contratación,0
+410,2024-03-23,494,1,2,3,1,Ingreso,Nueva contratación,0
+411,2026-03-23,494,1,2,3,3,Salida,Renuncia,1
+412,2024-11-11,495,1,2,9,1,Ingreso,Nueva contratación,0
+413,2026-05-10,495,1,2,9,3,Salida,Desvinculación,0
+414,2023-06-24,496,1,5,5,1,Ingreso,Nueva contratación,0
+415,2025-01-27,497,1,1,14,1,Ingreso,Nueva contratación,0
+416,2024-04-09,498,1,1,18,1,Ingreso,Nueva contratación,0
+417,2026-04-12,499,1,1,18,1,Ingreso,Nueva contratación,0
+418,2024-01-20,500,2,6,26,1,Ingreso,Nueva contratación,0
+419,2024-05-30,500,2,6,26,2,Salida,Renuncia,1
+420,2026-01-05,501,1,5,23,1,Ingreso,Nueva contratación,0
+421,2024-08-25,502,1,1,4,1,Ingreso,Nueva contratación,0
+422,2025-12-22,502,1,1,4,3,Salida,Fin de contrato,0
+423,2024-03-30,503,1,3,16,1,Ingreso,Nueva contratación,0
+424,2026-05-12,504,1,2,17,1,Ingreso,Nueva contratación,0
+425,2025-12-15,505,3,9,27,1,Ingreso,Nueva contratación,0
+426,2025-02-12,506,2,6,25,1,Ingreso,Nueva contratación,0
+427,2023-12-03,507,1,5,23,1,Ingreso,Nueva contratación,0
+428,2026-02-17,507,1,5,23,3,Salida,Renuncia,1
+429,2024-08-24,508,1,4,14,1,Ingreso,Nueva contratación,0
+430,2025-11-04,509,1,3,13,1,Ingreso,Nueva contratación,0
+431,2023-02-02,510,5,14,27,1,Ingreso,Nueva contratación,0
+432,2026-01-15,511,1,4,5,1,Ingreso,Nueva contratación,0
+433,2026-04-04,512,1,4,9,1,Ingreso,Nueva contratación,0
+434,2024-07-04,513,1,1,23,1,Ingreso,Nueva contratación,0
+435,2025-11-27,514,1,1,17,1,Ingreso,Nueva contratación,0
+436,2024-06-04,515,5,13,27,1,Ingreso,Nueva contratación,0
+437,2024-11-05,515,5,13,27,2,Salida,Fin de contrato,0
+438,2026-05-22,516,2,8,25,1,Ingreso,Nueva contratación,0
+439,2026-04-12,517,1,2,8,1,Ingreso,Nueva contratación,0
+440,2025-03-04,518,5,14,27,1,Ingreso,Nueva contratación,0
+441,2023-05-15,519,1,5,8,1,Ingreso,Nueva contratación,0
+442,2024-05-23,519,1,5,8,3,Salida,Fin de contrato,0
+443,2026-06-17,520,1,1,12,1,Ingreso,Nueva contratación,0
+444,2025-01-05,521,1,4,13,1,Ingreso,Nueva contratación,0
+445,2026-03-30,521,1,4,13,3,Salida,Desvinculación,0
+446,2024-04-02,522,1,1,7,1,Ingreso,Nueva contratación,0
+447,2023-02-16,523,1,1,9,1,Ingreso,Nueva contratación,0
+448,2023-12-24,524,6,15,27,1,Ingreso,Nueva contratación,0
+449,2024-02-26,525,1,2,5,1,Ingreso,Nueva contratación,0
+450,2024-12-31,525,1,2,5,2,Salida,Renuncia,1
+451,2025-11-07,526,1,2,23,1,Ingreso,Nueva contratación,0
+452,2025-05-03,527,1,5,8,1,Ingreso,Nueva contratación,0
+453,2025-09-14,527,1,5,8,2,Salida,Renuncia,1
+454,2026-03-16,528,1,1,4,1,Ingreso,Nueva contratación,0
+455,2025-03-31,529,1,3,24,1,Ingreso,Nueva contratación,0
+456,2023-01-28,530,1,1,21,1,Ingreso,Nueva contratación,0
+457,2023-05-15,530,1,1,21,2,Salida,Renuncia,1
+458,2026-03-07,531,1,1,15,1,Ingreso,Nueva contratación,0
+459,2023-09-10,532,1,5,11,1,Ingreso,Nueva contratación,0
+460,2025-01-31,533,1,3,15,1,Ingreso,Nueva contratación,0
+461,2023-06-23,534,1,2,22,1,Ingreso,Nueva contratación,0
+462,2023-11-01,535,1,1,8,1,Ingreso,Nueva contratación,0
+463,2024-02-28,535,1,1,8,2,Salida,Fin de contrato,0
+464,2023-03-20,536,1,1,21,1,Ingreso,Nueva contratación,0
+465,2026-07-23,536,1,1,21,4,Salida,Renuncia,1
+466,2024-07-20,537,2,8,25,1,Ingreso,Nueva contratación,0
+467,2026-01-14,538,2,7,26,1,Ingreso,Nueva contratación,0
+468,2026-07-06,539,1,1,9,1,Ingreso,Nueva contratación,0
+469,2023-03-05,540,1,3,14,1,Ingreso,Nueva contratación,0
+470,2023-08-28,541,2,6,25,1,Ingreso,Nueva contratación,0
+471,2023-10-02,541,2,6,25,1,Salida,Fin de contrato,0
+472,2023-03-23,542,1,1,13,1,Ingreso,Nueva contratación,0
+473,2023-06-23,542,1,1,13,2,Salida,Renuncia,1
+474,2023-12-16,543,1,1,7,1,Ingreso,Nueva contratación,0
+475,2026-03-27,543,1,1,7,3,Salida,Renuncia,1
+476,2024-01-28,544,2,6,26,1,Ingreso,Nueva contratación,0
+477,2024-06-15,545,1,1,3,1,Ingreso,Nueva contratación,0
+478,2024-09-04,545,1,1,3,1,Salida,Fin de contrato,0
+479,2023-04-14,546,1,1,11,1,Ingreso,Nueva contratación,0
+480,2024-11-17,546,1,1,11,3,Salida,Renuncia,1
+481,2023-01-22,547,1,2,8,1,Ingreso,Nueva contratación,0
+482,2024-07-30,547,1,2,8,3,Salida,Renuncia,1
+483,2024-11-25,548,2,6,26,1,Ingreso,Nueva contratación,0
+484,2024-05-27,549,1,1,23,1,Ingreso,Nueva contratación,0
+485,2025-11-04,550,1,2,7,1,Ingreso,Nueva contratación,0
+486,2024-09-07,551,1,1,9,1,Ingreso,Nueva contratación,0
+487,2024-11-06,551,1,1,9,1,Salida,Fin de contrato,0
+488,2025-12-26,552,2,8,25,1,Ingreso,Nueva contratación,0
+489,2023-05-10,553,1,4,3,1,Ingreso,Nueva contratación,0
+490,2026-03-18,554,1,4,24,1,Ingreso,Nueva contratación,0
+491,2026-01-24,555,1,5,12,1,Ingreso,Nueva contratación,0
+492,2024-08-20,556,1,1,7,1,Ingreso,Nueva contratación,0
+493,2024-04-17,557,1,3,18,1,Ingreso,Nueva contratación,0
+494,2025-10-02,558,1,1,3,1,Ingreso,Nueva contratación,0
+495,2023-04-24,559,1,1,21,1,Ingreso,Nueva contratación,0
+496,2024-02-03,559,1,1,21,2,Salida,Renuncia,1
+497,2025-04-30,560,1,1,6,1,Ingreso,Nueva contratación,0
+498,2025-06-19,560,1,1,6,1,Salida,Renuncia,1
+499,2024-12-22,561,1,1,15,1,Ingreso,Nueva contratación,0
+500,2025-05-03,562,1,2,19,1,Ingreso,Nueva contratación,0
+501,2026-01-18,562,1,2,19,2,Salida,Renuncia,1
+502,2024-05-18,563,1,3,13,1,Ingreso,Nueva contratación,0
+503,2024-11-05,564,2,6,26,1,Ingreso,Nueva contratación,0
+504,2026-03-15,565,1,1,2,1,Ingreso,Nueva contratación,0
+505,2023-02-09,566,6,15,27,1,Ingreso,Nueva contratación,0
+506,2023-07-14,567,1,3,12,1,Ingreso,Nueva contratación,0
+507,2025-07-29,568,1,1,9,1,Ingreso,Nueva contratación,0
+508,2026-02-25,568,1,1,9,2,Salida,Renuncia,1
+509,2024-07-21,569,3,10,27,1,Ingreso,Nueva contratación,0
+510,2026-07-20,570,1,5,14,1,Ingreso,Nueva contratación,0
+511,2024-03-31,571,1,3,12,1,Ingreso,Nueva contratación,0
+512,2023-03-11,572,1,5,23,1,Ingreso,Nueva contratación,0
+513,2025-03-21,572,1,5,23,3,Salida,Renuncia,1
+514,2023-10-26,573,1,3,15,1,Ingreso,Nueva contratación,0
+515,2024-03-01,574,1,3,22,1,Ingreso,Nueva contratación,0
+516,2026-04-19,575,1,3,8,1,Ingreso,Nueva contratación,0
+517,2025-02-27,576,1,1,11,1,Ingreso,Nueva contratación,0
+518,2025-08-30,577,1,3,2,1,Ingreso,Nueva contratación,0
+519,2025-10-11,578,1,2,18,1,Ingreso,Nueva contratación,0
+520,2023-03-30,579,1,1,2,1,Ingreso,Nueva contratación,0
+521,2023-12-04,580,2,8,26,1,Ingreso,Nueva contratación,0
+522,2023-06-11,581,1,2,14,1,Ingreso,Nueva contratación,0
+523,2024-10-28,581,1,2,14,3,Salida,Renuncia,1
+524,2025-03-04,582,1,4,12,1,Ingreso,Nueva contratación,0
+525,2024-02-27,583,1,3,12,1,Ingreso,Nueva contratación,0
+526,2025-11-03,584,2,7,25,1,Ingreso,Nueva contratación,0
+527,2025-12-08,584,2,7,25,1,Salida,Renuncia,1
+528,2025-08-20,585,1,5,1,1,Ingreso,Nueva contratación,0
+529,2026-07-04,585,1,5,1,2,Salida,Fin de contrato,0
+530,2023-08-01,586,1,1,23,1,Ingreso,Nueva contratación,0
+531,2025-06-04,587,1,1,6,1,Ingreso,Nueva contratación,0
+532,2026-01-08,588,1,1,9,1,Ingreso,Nueva contratación,0
+533,2026-04-08,588,1,1,9,1,Salida,Renuncia,1
+534,2023-05-27,589,1,1,4,1,Ingreso,Nueva contratación,0
+535,2026-04-29,589,1,1,4,3,Salida,Renuncia,1
+536,2023-05-11,590,1,1,2,1,Ingreso,Nueva contratación,0
+537,2024-07-18,590,1,1,2,3,Salida,Renuncia,1
+538,2026-02-14,591,2,6,26,1,Ingreso,Nueva contratación,0
+539,2026-08-23,592,1,5,3,1,Ingreso,Nueva contratación,0
+540,2025-03-20,593,1,2,13,1,Ingreso,Nueva contratación,0
+541,2025-07-24,593,1,2,13,2,Salida,Desvinculación,0
+542,2025-09-23,594,1,1,19,1,Ingreso,Nueva contratación,0
+543,2026-03-12,594,1,1,19,2,Salida,Fin de contrato,0
+544,2024-10-06,595,2,6,25,1,Ingreso,Nueva contratación,0
+545,2025-01-18,596,2,6,26,1,Ingreso,Nueva contratación,0
+546,2026-06-30,597,1,1,15,1,Ingreso,Nueva contratación,0
+547,2026-08-27,598,1,2,8,1,Ingreso,Nueva contratación,0
+548,2026-01-29,599,2,6,26,1,Ingreso,Nueva contratación,0
+549,2026-07-09,600,1,4,3,1,Ingreso,Nueva contratación,0
+550,2024-12-04,601,1,1,23,1,Ingreso,Nueva contratación,0
+551,2026-07-15,602,1,5,18,1,Ingreso,Nueva contratación,0
+552,2026-08-19,602,1,5,18,1,Salida,Renuncia,1
+553,2024-08-21,603,1,1,11,1,Ingreso,Nueva contratación,0
+554,2026-03-08,603,1,1,11,3,Salida,Renuncia,1
+555,2023-08-21,604,1,1,24,1,Ingreso,Nueva contratación,0
+556,2024-04-21,604,1,1,24,2,Salida,Desvinculación,0
+557,2023-07-20,605,1,4,16,1,Ingreso,Nueva contratación,0
+558,2025-03-20,606,1,1,6,1,Ingreso,Nueva contratación,0
+559,2025-02-19,607,1,1,8,1,Ingreso,Nueva contratación,0
+560,2025-12-30,607,1,1,8,2,Salida,Fin de contrato,0
+561,2025-12-03,608,1,2,17,1,Ingreso,Nueva contratación,0
+562,2024-01-28,609,1,3,16,1,Ingreso,Nueva contratación,0
+563,2024-11-30,610,1,5,19,1,Ingreso,Nueva contratación,0
+564,2023-06-05,611,1,1,10,1,Ingreso,Nueva contratación,0
+565,2024-05-07,612,1,1,18,1,Ingreso,Nueva contratación,0
+566,2023-04-05,613,1,2,5,1,Ingreso,Nueva contratación,0
+567,2023-12-10,613,1,2,5,2,Salida,Renuncia,1
+568,2026-05-31,614,2,6,25,1,Ingreso,Nueva contratación,0
+569,2025-02-26,615,1,2,3,1,Ingreso,Nueva contratación,0
+570,2025-09-15,615,1,2,3,2,Salida,Renuncia,1
+571,2024-05-16,616,1,4,23,1,Ingreso,Nueva contratación,0
+572,2023-09-16,617,1,1,24,1,Ingreso,Nueva contratación,0
+573,2025-05-14,618,2,6,26,1,Ingreso,Nueva contratación,0
+574,2025-10-22,618,2,6,26,2,Salida,Renuncia,1
+575,2025-01-02,619,1,1,7,1,Ingreso,Nueva contratación,0
+576,2026-04-21,620,1,2,23,1,Ingreso,Nueva contratación,0
+577,2026-06-07,621,1,1,12,1,Ingreso,Nueva contratación,0
+578,2023-09-07,622,1,2,8,1,Ingreso,Nueva contratación,0
+579,2025-03-06,622,1,2,8,3,Salida,Fin de contrato,0
+580,2026-06-18,623,1,5,14,1,Ingreso,Nueva contratación,0
+581,2026-08-28,623,1,5,14,1,Salida,Desvinculación,0
+582,2025-01-29,624,1,3,4,1,Ingreso,Nueva contratación,0
+583,2024-01-15,625,1,2,6,1,Ingreso,Nueva contratación,0
+584,2024-04-26,625,1,2,6,2,Salida,Fin de contrato,0
+585,2023-03-19,626,2,6,25,1,Ingreso,Nueva contratación,0
+586,2025-08-28,627,1,2,19,1,Ingreso,Nueva contratación,0
+587,2026-03-10,627,1,2,19,2,Salida,Renuncia,1
+588,2025-04-10,628,1,1,10,1,Ingreso,Nueva contratación,0
+589,2025-08-22,629,1,5,23,1,Ingreso,Nueva contratación,0
+590,2024-02-11,630,1,1,20,1,Ingreso,Nueva contratación,0
+591,2024-07-03,631,1,2,8,1,Ingreso,Nueva contratación,0
+592,2023-01-05,632,5,14,27,1,Ingreso,Nueva contratación,0
+593,2023-07-19,632,5,14,27,2,Salida,Renuncia,1
+594,2023-03-09,633,1,1,13,1,Ingreso,Nueva contratación,0
+595,2023-06-08,633,1,1,13,2,Salida,Renuncia,1
+596,2026-02-22,634,1,2,1,1,Ingreso,Nueva contratación,0
+597,2023-09-16,635,1,2,21,1,Ingreso,Nueva contratación,0
+598,2024-05-04,635,1,2,21,2,Salida,Fin de contrato,0
+599,2025-04-11,636,1,5,4,1,Ingreso,Nueva contratación,0
+600,2026-05-27,636,1,5,4,3,Salida,Renuncia,1
+601,2025-02-14,637,1,1,22,1,Ingreso,Nueva contratación,0
+602,2023-12-02,638,1,5,24,1,Ingreso,Nueva contratación,0
+603,2025-03-24,639,2,6,25,1,Ingreso,Nueva contratación,0
+604,2025-03-30,640,1,1,3,1,Ingreso,Nueva contratación,0
+605,2026-04-14,641,1,1,15,1,Ingreso,Nueva contratación,0
+606,2025-12-08,642,2,6,25,1,Ingreso,Nueva contratación,0
+607,2023-09-13,643,1,5,21,1,Ingreso,Nueva contratación,0
+608,2026-02-05,643,1,5,21,3,Salida,Renuncia,1
+609,2025-06-29,644,1,1,19,1,Ingreso,Nueva contratación,0
+610,2026-01-11,644,1,1,19,2,Salida,Desvinculación,0
+611,2023-10-21,645,1,5,2,1,Ingreso,Nueva contratación,0
+612,2024-05-01,646,1,1,19,1,Ingreso,Nueva contratación,0
+613,2024-03-01,647,1,1,5,1,Ingreso,Nueva contratación,0
+614,2023-05-27,648,1,5,12,1,Ingreso,Nueva contratación,0
+615,2023-12-26,649,1,2,6,1,Ingreso,Nueva contratación,0
+616,2025-04-01,650,1,3,9,1,Ingreso,Nueva contratación,0
+617,2023-05-15,651,1,4,10,1,Ingreso,Nueva contratación,0
+618,2024-09-30,652,1,1,10,1,Ingreso,Nueva contratación,0
+619,2026-05-11,652,1,1,10,3,Salida,Renuncia,1
+620,2025-01-24,653,1,1,3,1,Ingreso,Nueva contratación,0
+621,2026-03-29,653,1,1,3,3,Salida,Renuncia,1
+622,2025-11-07,654,1,5,21,1,Ingreso,Nueva contratación,0
+623,2024-03-28,655,1,1,13,1,Ingreso,Nueva contratación,0
+624,2024-06-26,655,1,1,13,1,Salida,Fin de contrato,0
+625,2024-03-09,656,4,12,27,1,Ingreso,Nueva contratación,0
+626,2026-02-10,657,5,14,27,1,Ingreso,Nueva contratación,0
+627,2026-05-16,657,5,14,27,2,Salida,Renuncia,1
+628,2023-01-19,658,1,5,1,1,Ingreso,Nueva contratación,0
+629,2024-12-04,658,1,5,1,3,Salida,Fin de contrato,0
+630,2026-04-03,659,1,1,23,1,Ingreso,Nueva contratación,0
+631,2024-07-11,660,2,7,26,1,Ingreso,Nueva contratación,0
+632,2025-03-20,660,2,7,26,2,Salida,Renuncia,1
+633,2024-05-23,661,1,2,16,1,Ingreso,Nueva contratación,0
+634,2025-05-01,661,1,2,16,2,Salida,Fin de contrato,0
+635,2025-07-13,662,1,4,11,1,Ingreso,Nueva contratación,0
+636,2026-04-17,663,6,15,27,1,Ingreso,Nueva contratación,0
+637,2026-07-05,663,6,15,27,1,Salida,Renuncia,1
+638,2025-03-06,664,1,1,7,1,Ingreso,Nueva contratación,0
+639,2026-08-25,664,1,1,7,3,Salida,Fin de contrato,0
+640,2024-04-27,665,1,4,16,1,Ingreso,Nueva contratación,0
+641,2026-07-24,666,1,2,8,1,Ingreso,Nueva contratación,0
+642,2025-01-08,667,2,6,25,1,Ingreso,Nueva contratación,0
+643,2023-02-13,668,1,1,19,1,Ingreso,Nueva contratación,0
+644,2025-02-20,668,1,1,19,3,Salida,Renuncia,1
+645,2026-04-27,669,1,1,23,1,Ingreso,Nueva contratación,0
+646,2026-08-14,669,1,1,23,2,Salida,Desvinculación,0
+647,2024-07-02,670,2,6,25,1,Ingreso,Nueva contratación,0
+648,2025-04-20,670,2,6,25,2,Salida,Renuncia,1
+649,2025-08-13,671,1,1,9,1,Ingreso,Nueva contratación,0
+650,2025-10-11,672,1,1,19,1,Ingreso,Nueva contratación,0
+651,2024-08-14,673,1,5,20,1,Ingreso,Nueva contratación,0
+652,2025-03-10,674,1,2,16,1,Ingreso,Nueva contratación,0
+653,2025-10-11,675,1,1,1,1,Ingreso,Nueva contratación,0
+654,2025-07-06,676,1,1,7,1,Ingreso,Nueva contratación,0
+655,2026-05-03,677,1,2,8,1,Ingreso,Nueva contratación,0
+656,2023-12-06,678,1,2,2,1,Ingreso,Nueva contratación,0
+657,2025-11-24,679,1,1,24,1,Ingreso,Nueva contratación,0
+658,2025-11-13,680,1,1,16,1,Ingreso,Nueva contratación,0
+659,2023-05-16,681,1,1,9,1,Ingreso,Nueva contratación,0
+660,2024-10-02,681,1,1,9,3,Salida,Renuncia,1
+661,2026-08-17,682,1,5,4,1,Ingreso,Nueva contratación,0
+662,2025-11-24,683,1,1,22,1,Ingreso,Nueva contratación,0
+663,2026-06-22,684,1,1,15,1,Ingreso,Nueva contratación,0
+664,2026-04-21,685,1,2,11,1,Ingreso,Nueva contratación,0
+665,2023-08-03,686,1,1,1,1,Ingreso,Nueva contratación,0
+666,2024-06-07,686,1,1,1,2,Salida,Renuncia,1
+667,2025-09-12,687,5,14,27,1,Ingreso,Nueva contratación,0
+668,2025-12-20,687,5,14,27,2,Salida,Renuncia,1
+669,2025-05-01,688,1,4,17,1,Ingreso,Nueva contratación,0
+670,2025-09-13,688,1,4,17,2,Salida,Renuncia,1
+671,2024-10-22,689,1,5,4,1,Ingreso,Nueva contratación,0
+672,2024-12-18,689,1,5,4,1,Salida,Renuncia,1
+673,2023-01-03,690,1,2,19,1,Ingreso,Nueva contratación,0
+674,2023-05-15,690,1,2,19,2,Salida,Renuncia,1
+675,2025-08-27,691,2,8,25,1,Ingreso,Nueva contratación,0
+676,2025-11-25,692,2,6,25,1,Ingreso,Nueva contratación,0
+677,2026-04-11,693,1,1,9,1,Ingreso,Nueva contratación,0
+678,2023-02-27,694,1,2,11,1,Ingreso,Nueva contratación,0
+679,2023-07-30,694,1,2,11,2,Salida,Renuncia,1
+680,2025-08-20,695,1,1,17,1,Ingreso,Nueva contratación,0
+681,2023-06-01,696,1,2,1,1,Ingreso,Nueva contratación,0
+682,2023-11-26,696,1,2,1,2,Salida,Fin de contrato,0
+683,2023-07-07,697,2,6,25,1,Ingreso,Nueva contratación,0
+684,2024-01-26,697,2,6,25,2,Salida,Desvinculación,0
+685,2024-11-05,698,1,1,5,1,Ingreso,Nueva contratación,0
+686,2024-04-21,699,1,4,11,1,Ingreso,Nueva contratación,0
+687,2026-04-03,700,1,2,12,1,Ingreso,Nueva contratación,0
+688,2026-06-18,700,1,2,12,1,Salida,Renuncia,1
+689,2024-10-20,701,1,4,7,1,Ingreso,Nueva contratación,0
+690,2026-07-08,701,1,4,7,3,Salida,Renuncia,1
+691,2025-03-03,702,1,1,14,1,Ingreso,Nueva contratación,0
+692,2026-03-09,702,1,1,14,3,Salida,Renuncia,1
+693,2026-06-15,703,1,2,13,1,Ingreso,Nueva contratación,0
+694,2024-04-05,704,1,1,2,1,Ingreso,Nueva contratación,0
+695,2025-07-21,705,1,1,2,1,Ingreso,Nueva contratación,0
+696,2025-07-03,706,1,1,5,1,Ingreso,Nueva contratación,0
+697,2023-01-31,707,1,5,22,1,Ingreso,Nueva contratación,0
+698,2025-02-01,707,1,5,22,3,Salida,Renuncia,1
+699,2023-01-29,708,4,12,27,1,Ingreso,Nueva contratación,0
+700,2025-03-01,709,1,3,4,1,Ingreso,Nueva contratación,0
+701,2026-05-06,710,1,2,17,1,Ingreso,Nueva contratación,0
+702,2024-08-02,711,4,12,27,1,Ingreso,Nueva contratación,0
+703,2023-03-09,712,1,2,11,1,Ingreso,Nueva contratación,0
+704,2024-07-19,712,1,2,11,3,Salida,Renuncia,1
+705,2024-08-13,713,1,1,5,1,Ingreso,Nueva contratación,0
+706,2026-05-18,714,1,5,12,1,Ingreso,Nueva contratación,0
+707,2026-08-29,715,1,2,9,1,Ingreso,Nueva contratación,0
+708,2023-01-04,716,1,4,8,1,Ingreso,Nueva contratación,0
+709,2025-08-09,716,1,4,8,3,Salida,Renuncia,1
+710,2023-01-11,717,2,7,25,1,Ingreso,Nueva contratación,0
+711,2026-03-12,717,2,7,25,4,Salida,Fin de contrato,0
+712,2025-12-21,718,1,2,17,1,Ingreso,Nueva contratación,0
+713,2026-03-16,719,1,5,2,1,Ingreso,Nueva contratación,0
+714,2023-06-20,720,2,7,25,1,Ingreso,Nueva contratación,0
+715,2023-07-25,720,2,7,25,1,Salida,Renuncia,1
+716,2024-02-09,721,1,3,24,1,Ingreso,Nueva contratación,0
+717,2025-06-18,721,1,3,24,3,Salida,Renuncia,1
+718,2025-10-17,722,1,3,17,1,Ingreso,Nueva contratación,0
+719,2023-01-16,723,1,1,24,1,Ingreso,Nueva contratación,0
+720,2026-04-12,723,1,1,24,4,Salida,Renuncia,1
+721,2026-03-10,724,1,1,7,1,Ingreso,Nueva contratación,0
+722,2026-07-16,724,1,1,7,2,Salida,Renuncia,1
+723,2024-10-20,725,1,4,18,1,Ingreso,Nueva contratación,0
+724,2025-09-26,726,1,1,15,1,Ingreso,Nueva contratación,0
+725,2026-05-01,726,1,1,15,2,Salida,Fin de contrato,0
+726,2024-12-05,727,2,6,26,1,Ingreso,Nueva contratación,0
+727,2026-02-22,727,2,6,26,3,Salida,Renuncia,1
+728,2026-03-22,728,1,1,11,1,Ingreso,Nueva contratación,0
+729,2025-02-26,729,1,1,8,1,Ingreso,Nueva contratación,0
+730,2025-11-26,729,1,1,8,2,Salida,Renuncia,1
+731,2024-04-07,730,1,2,2,1,Ingreso,Nueva contratación,0
+732,2024-05-25,730,1,2,2,1,Salida,Fin de contrato,0
+733,2023-04-28,731,1,2,12,1,Ingreso,Nueva contratación,0
+734,2023-06-02,731,1,2,12,1,Salida,Renuncia,1
+735,2024-12-25,732,1,1,21,1,Ingreso,Nueva contratación,0
+736,2023-04-11,733,1,3,20,1,Ingreso,Nueva contratación,0
+737,2024-03-15,734,1,2,24,1,Ingreso,Nueva contratación,0
+738,2026-01-02,734,1,2,24,3,Salida,Renuncia,1
+739,2023-07-20,735,4,12,27,1,Ingreso,Nueva contratación,0
+740,2026-07-11,736,1,2,17,1,Ingreso,Nueva contratación,0
+741,2024-09-13,737,1,1,23,1,Ingreso,Nueva contratación,0
+742,2024-10-18,737,1,1,23,1,Salida,Renuncia,1
+743,2026-07-04,738,1,4,9,1,Ingreso,Nueva contratación,0
+744,2026-05-12,739,1,5,7,1,Ingreso,Nueva contratación,0
+745,2025-10-08,740,1,2,4,1,Ingreso,Nueva contratación,0
+746,2023-04-01,741,1,5,20,1,Ingreso,Nueva contratación,0
+747,2024-09-13,741,1,5,20,3,Salida,Renuncia,1
+748,2025-04-30,742,1,2,14,1,Ingreso,Nueva contratación,0
+749,2025-10-28,743,1,3,12,1,Ingreso,Nueva contratación,0
+750,2023-08-10,744,1,5,24,1,Ingreso,Nueva contratación,0
+751,2025-03-15,744,1,5,24,3,Salida,Renuncia,1
+752,2026-06-01,745,3,10,27,1,Ingreso,Nueva contratación,0
+753,2025-08-11,746,1,5,18,1,Ingreso,Nueva contratación,0
+754,2024-06-07,747,1,1,5,1,Ingreso,Nueva contratación,0
+755,2025-06-29,748,1,1,9,1,Ingreso,Nueva contratación,0
+756,2025-08-03,748,1,1,9,1,Salida,Renuncia,1
+757,2024-12-13,749,1,1,8,1,Ingreso,Nueva contratación,0
+758,2024-09-05,750,1,2,17,1,Ingreso,Nueva contratación,0
+759,2025-12-29,751,1,1,11,1,Ingreso,Nueva contratación,0
+760,2026-02-02,751,1,1,11,1,Salida,Fin de contrato,0
+761,2026-07-08,752,1,5,3,1,Ingreso,Nueva contratación,0
+762,2025-05-13,753,1,5,17,1,Ingreso,Nueva contratación,0
+763,2026-08-03,754,2,7,26,1,Ingreso,Nueva contratación,0
+764,2024-09-14,755,1,1,4,1,Ingreso,Nueva contratación,0
+765,2025-05-18,755,1,1,4,2,Salida,Renuncia,1
+766,2023-10-23,756,1,3,22,1,Ingreso,Nueva contratación,0
+767,2025-11-09,757,1,4,1,1,Ingreso,Nueva contratación,0
+768,2026-03-22,758,1,5,8,1,Ingreso,Nueva contratación,0
+769,2024-01-01,759,2,7,26,1,Ingreso,Nueva contratación,0
+770,2024-12-04,759,2,7,26,2,Salida,Fin de contrato,0
+771,2024-10-07,760,1,5,1,1,Ingreso,Nueva contratación,0
+772,2026-08-05,761,1,5,2,1,Ingreso,Nueva contratación,0
+773,2025-09-13,762,1,1,19,1,Ingreso,Nueva contratación,0
+774,2026-04-29,763,1,3,1,1,Ingreso,Nueva contratación,0
+775,2025-10-24,764,2,6,25,1,Ingreso,Nueva contratación,0
+776,2023-02-21,765,2,7,26,1,Ingreso,Nueva contratación,0
+777,2024-06-06,765,2,7,26,3,Salida,Fin de contrato,0
+778,2025-09-30,766,1,2,23,1,Ingreso,Nueva contratación,0
+779,2023-11-28,767,2,6,25,1,Ingreso,Nueva contratación,0
+780,2023-05-17,768,1,1,18,1,Ingreso,Nueva contratación,0
+781,2024-08-29,768,1,1,18,3,Salida,Renuncia,1
+782,2026-03-15,769,1,4,23,1,Ingreso,Nueva contratación,0
+783,2026-04-16,770,1,1,14,1,Ingreso,Nueva contratación,0
+784,2025-03-18,771,1,1,7,1,Ingreso,Nueva contratación,0
+785,2023-01-21,772,1,5,17,1,Ingreso,Nueva contratación,0
+786,2023-04-14,772,1,5,17,1,Salida,Renuncia,1
+787,2025-10-22,773,1,1,14,1,Ingreso,Nueva contratación,0
+788,2026-05-23,774,1,1,13,1,Ingreso,Nueva contratación,0
+789,2023-05-06,775,3,10,27,1,Ingreso,Nueva contratación,0
+790,2024-02-22,775,3,10,27,2,Salida,Desvinculación,0
+791,2025-08-21,776,6,15,27,1,Ingreso,Nueva contratación,0
+792,2026-07-04,777,1,5,24,1,Ingreso,Nueva contratación,0
+793,2025-01-29,778,5,13,27,1,Ingreso,Nueva contratación,0
+794,2025-08-05,779,1,1,2,1,Ingreso,Nueva contratación,0
+795,2023-05-20,780,1,1,8,1,Ingreso,Nueva contratación,0
+796,2026-03-17,780,1,1,8,3,Salida,Fin de contrato,0
+797,2025-05-07,781,1,3,21,1,Ingreso,Nueva contratación,0
+798,2024-02-06,782,1,1,10,1,Ingreso,Nueva contratación,0
+799,2026-08-24,782,1,1,10,3,Salida,Renuncia,1
+800,2025-03-15,783,1,4,8,1,Ingreso,Nueva contratación,0
+801,2025-12-05,783,1,4,8,2,Salida,Renuncia,1
+802,2024-01-12,784,1,5,9,1,Ingreso,Nueva contratación,0
+803,2025-10-26,784,1,5,9,3,Salida,Desvinculación,0
+804,2024-01-11,785,1,2,15,1,Ingreso,Nueva contratación,0
+805,2025-10-05,785,1,2,15,3,Salida,Desvinculación,0
+806,2023-10-23,786,1,1,22,1,Ingreso,Nueva contratación,0
+807,2024-03-07,786,1,1,22,2,Salida,Renuncia,1
+808,2023-02-16,787,1,5,18,1,Ingreso,Nueva contratación,0
+809,2023-09-10,787,1,5,18,2,Salida,Renuncia,1
+810,2024-08-07,788,1,1,19,1,Ingreso,Nueva contratación,0
+811,2026-01-21,788,1,1,19,3,Salida,Renuncia,1
+812,2026-04-16,789,2,8,26,1,Ingreso,Nueva contratación,0
+813,2024-10-08,790,1,1,8,1,Ingreso,Nueva contratación,0
+814,2025-04-01,790,1,1,8,2,Salida,Renuncia,1
+815,2026-02-07,791,2,7,26,1,Ingreso,Nueva contratación,0
+816,2023-02-08,792,1,2,16,1,Ingreso,Nueva contratación,0
+817,2024-11-29,792,1,2,16,3,Salida,Renuncia,1
+818,2026-04-19,793,1,5,2,1,Ingreso,Nueva contratación,0
+819,2026-04-16,794,1,4,18,1,Ingreso,Nueva contratación,0
+820,2026-07-14,794,1,4,18,1,Salida,Desvinculación,0
+821,2026-01-22,795,1,3,1,1,Ingreso,Nueva contratación,0
+822,2025-05-23,796,1,4,8,1,Ingreso,Nueva contratación,0
+823,2026-03-13,796,1,4,8,2,Salida,Renuncia,1
+824,2023-07-15,797,1,3,20,1,Ingreso,Nueva contratación,0
+825,2023-09-12,797,1,3,20,1,Salida,Renuncia,1
+826,2023-11-13,798,1,1,15,1,Ingreso,Nueva contratación,0
+827,2024-02-17,798,1,1,15,2,Salida,Desvinculación,0
+828,2024-10-25,799,1,2,13,1,Ingreso,Nueva contratación,0
+829,2024-11-30,799,1,2,13,1,Salida,Renuncia,1
+830,2025-06-03,800,1,3,17,1,Ingreso,Nueva contratación,0
+831,2024-03-20,801,1,2,9,1,Ingreso,Nueva contratación,0
+832,2026-01-24,801,1,2,9,3,Salida,Desvinculación,0
+833,2023-01-25,802,1,2,22,1,Ingreso,Nueva contratación,0
+834,2023-06-20,802,1,2,22,2,Salida,Renuncia,1
+835,2024-06-02,803,1,2,8,1,Ingreso,Nueva contratación,0
+836,2026-08-06,804,1,1,20,1,Ingreso,Nueva contratación,0
+837,2024-02-02,805,1,1,3,1,Ingreso,Nueva contratación,0
+838,2024-09-19,806,1,1,14,1,Ingreso,Nueva contratación,0
+839,2023-07-16,807,5,13,27,1,Ingreso,Nueva contratación,0
+840,2025-07-10,808,1,1,5,1,Ingreso,Nueva contratación,0
+841,2024-02-28,809,1,2,1,1,Ingreso,Nueva contratación,0
+842,2026-04-01,809,1,2,1,3,Salida,Desvinculación,0
+843,2023-05-01,810,1,5,9,1,Ingreso,Nueva contratación,0
+844,2023-08-23,810,1,5,9,2,Salida,Renuncia,1
+845,2026-02-06,811,1,1,13,1,Ingreso,Nueva contratación,0
+846,2026-05-07,811,1,1,13,1,Salida,Fin de contrato,0
+847,2023-04-04,812,1,4,4,1,Ingreso,Nueva contratación,0
+848,2025-06-07,813,1,4,14,1,Ingreso,Nueva contratación,0
+849,2026-07-05,814,1,3,3,1,Ingreso,Nueva contratación,0
+850,2026-03-15,815,1,1,22,1,Ingreso,Nueva contratación,0
+851,2023-11-17,816,4,12,27,1,Ingreso,Nueva contratación,0
+852,2026-01-16,817,1,1,22,1,Ingreso,Nueva contratación,0
+853,2024-12-24,818,4,12,27,1,Ingreso,Nueva contratación,0
+854,2025-03-22,818,4,12,27,1,Salida,Renuncia,1
+855,2026-04-26,819,1,3,12,1,Ingreso,Nueva contratación,0
+856,2024-06-18,820,1,5,6,1,Ingreso,Nueva contratación,0
+857,2025-07-23,820,1,5,6,3,Salida,Desvinculación,0
+858,2023-07-01,821,2,7,26,1,Ingreso,Nueva contratación,0
+859,2024-09-07,822,1,1,18,1,Ingreso,Nueva contratación,0
+860,2023-12-07,823,1,3,5,1,Ingreso,Nueva contratación,0
+861,2023-02-06,824,1,1,11,1,Ingreso,Nueva contratación,0
+862,2025-07-15,825,5,13,27,1,Ingreso,Nueva contratación,0
+863,2023-07-29,826,1,1,15,1,Ingreso,Nueva contratación,0
+864,2025-10-26,826,1,1,15,3,Salida,Fin de contrato,0
+865,2024-07-08,827,4,11,27,1,Ingreso,Nueva contratación,0
+866,2025-05-31,828,1,2,8,1,Ingreso,Nueva contratación,0
+867,2026-01-10,828,1,2,8,2,Salida,Renuncia,1
+868,2023-06-05,829,1,1,17,1,Ingreso,Nueva contratación,0
+869,2025-02-21,830,1,1,24,1,Ingreso,Nueva contratación,0
+870,2026-04-02,831,1,1,22,1,Ingreso,Nueva contratación,0
+871,2025-08-27,832,1,2,11,1,Ingreso,Nueva contratación,0
+872,2024-01-09,833,1,5,13,1,Ingreso,Nueva contratación,0
+873,2025-04-25,834,1,2,4,1,Ingreso,Nueva contratación,0
+874,2025-10-25,834,1,2,4,2,Salida,Renuncia,1
+875,2024-09-25,835,1,5,5,1,Ingreso,Nueva contratación,0
+876,2024-10-30,835,1,5,5,1,Salida,Renuncia,1
+877,2023-05-15,836,5,13,27,1,Ingreso,Nueva contratación,0
+878,2025-06-24,837,1,3,17,1,Ingreso,Nueva contratación,0
+879,2023-01-17,838,1,1,6,1,Ingreso,Nueva contratación,0
+880,2023-10-01,839,2,6,25,1,Ingreso,Nueva contratación,0
+881,2023-11-17,839,2,6,25,1,Salida,Renuncia,1
+882,2023-12-15,840,1,4,24,1,Ingreso,Nueva contratación,0
+883,2024-09-03,841,1,1,13,1,Ingreso,Nueva contratación,0
+884,2024-10-31,841,1,1,13,1,Salida,Renuncia,1
+885,2023-09-18,842,1,5,11,1,Ingreso,Nueva contratación,0
+886,2024-10-17,842,1,5,11,3,Salida,Desvinculación,0
+887,2024-10-31,843,3,10,27,1,Ingreso,Nueva contratación,0
+888,2024-12-14,844,1,3,17,1,Ingreso,Nueva contratación,0
+889,2026-02-24,845,1,4,15,1,Ingreso,Nueva contratación,0
+890,2024-05-24,846,1,1,2,1,Ingreso,Nueva contratación,0
+891,2025-10-22,847,1,4,10,1,Ingreso,Nueva contratación,0
+892,2024-06-02,848,1,1,12,1,Ingreso,Nueva contratación,0
+893,2023-05-21,849,1,5,2,1,Ingreso,Nueva contratación,0
+894,2024-10-13,850,1,3,22,1,Ingreso,Nueva contratación,0
+895,2025-01-07,851,1,1,14,1,Ingreso,Nueva contratación,0
+896,2023-04-10,852,1,2,18,1,Ingreso,Nueva contratación,0
+897,2025-08-11,852,1,2,18,3,Salida,Renuncia,1
+898,2023-01-07,853,1,1,11,1,Ingreso,Nueva contratación,0
+899,2025-06-06,853,1,1,11,3,Salida,Renuncia,1
+900,2023-07-26,854,1,1,7,1,Ingreso,Nueva contratación,0
+901,2025-03-04,854,1,1,7,3,Salida,Renuncia,1
+902,2023-10-14,855,1,2,3,1,Ingreso,Nueva contratación,0
+903,2024-06-19,855,1,2,3,2,Salida,Renuncia,1
+904,2026-07-09,856,1,3,7,1,Ingreso,Nueva contratación,0
+905,2025-04-22,857,2,8,26,1,Ingreso,Nueva contratación,0
+906,2023-04-20,858,1,4,14,1,Ingreso,Nueva contratación,0
+907,2025-08-06,859,1,1,15,1,Ingreso,Nueva contratación,0
+908,2025-09-21,859,1,1,15,1,Salida,Desvinculación,0
+909,2024-11-23,860,1,5,7,1,Ingreso,Nueva contratación,0
+910,2026-03-25,861,1,2,4,1,Ingreso,Nueva contratación,0
+911,2023-08-30,862,1,2,4,1,Ingreso,Nueva contratación,0
+912,2026-08-17,862,1,2,4,3,Salida,Renuncia,1
+913,2026-01-26,863,1,2,22,1,Ingreso,Nueva contratación,0
+914,2023-09-15,864,1,4,21,1,Ingreso,Nueva contratación,0
+915,2025-04-10,864,1,4,21,3,Salida,Renuncia,1
+916,2023-06-18,865,1,5,15,1,Ingreso,Nueva contratación,0
+917,2023-10-25,865,1,5,15,2,Salida,Renuncia,1
+918,2025-10-10,866,1,5,4,1,Ingreso,Nueva contratación,0
+919,2026-02-26,866,1,5,4,2,Salida,Desvinculación,0
+920,2023-12-18,867,1,1,2,1,Ingreso,Nueva contratación,0
+921,2024-05-10,867,1,1,2,2,Salida,Renuncia,1
+922,2025-09-22,868,1,1,22,1,Ingreso,Nueva contratación,0
+923,2026-03-25,868,1,1,22,2,Salida,Fin de contrato,0
+924,2023-06-08,869,1,1,20,1,Ingreso,Nueva contratación,0
+925,2025-07-08,869,1,1,20,3,Salida,Renuncia,1
+926,2024-09-09,870,1,2,5,1,Ingreso,Nueva contratación,0
+927,2026-04-07,870,1,2,5,3,Salida,Renuncia,1
+928,2025-04-22,871,1,1,23,1,Ingreso,Nueva contratación,0
+929,2023-07-13,872,2,6,25,1,Ingreso,Nueva contratación,0
+930,2026-07-17,873,1,1,12,1,Ingreso,Nueva contratación,0
+931,2023-10-04,874,1,3,11,1,Ingreso,Nueva contratación,0
+932,2023-12-25,875,1,1,4,1,Ingreso,Nueva contratación,0
+933,2024-04-22,875,1,1,4,2,Salida,Desvinculación,0
+934,2026-08-02,876,1,2,12,1,Ingreso,Nueva contratación,0
+935,2025-07-31,877,1,2,2,1,Ingreso,Nueva contratación,0
+936,2026-06-02,878,1,5,9,1,Ingreso,Nueva contratación,0
+937,2025-03-29,879,1,1,21,1,Ingreso,Nueva contratación,0
+938,2025-12-10,879,1,1,21,2,Salida,Renuncia,1
+939,2024-06-25,880,1,2,22,1,Ingreso,Nueva contratación,0
+940,2026-05-10,880,1,2,22,3,Salida,Renuncia,1
+941,2024-04-30,881,1,1,4,1,Ingreso,Nueva contratación,0
+942,2025-02-11,881,1,1,4,2,Salida,Renuncia,1
+943,2023-05-06,882,2,6,25,1,Ingreso,Nueva contratación,0
+944,2023-11-15,882,2,6,25,2,Salida,Renuncia,1
+945,2023-07-10,883,1,2,18,1,Ingreso,Nueva contratación,0
+946,2023-09-23,884,1,5,24,1,Ingreso,Nueva contratación,0
+947,2023-03-24,885,1,1,20,1,Ingreso,Nueva contratación,0
+948,2024-09-04,885,1,1,20,3,Salida,Renuncia,1
+949,2024-11-21,886,5,13,27,1,Ingreso,Nueva contratación,0
+950,2023-06-28,887,1,2,10,1,Ingreso,Nueva contratación,0
+951,2026-03-03,888,1,2,12,1,Ingreso,Nueva contratación,0
+952,2024-06-11,889,1,1,21,1,Ingreso,Nueva contratación,0
+953,2023-03-10,890,1,4,22,1,Ingreso,Nueva contratación,0
+954,2025-12-15,890,1,4,22,3,Salida,Renuncia,1
+955,2025-05-16,891,1,1,10,1,Ingreso,Nueva contratación,0
+956,2025-10-08,892,1,1,19,1,Ingreso,Nueva contratación,0
+957,2025-08-23,893,4,11,27,1,Ingreso,Nueva contratación,0
+958,2025-01-04,894,4,12,27,1,Ingreso,Nueva contratación,0
+959,2023-01-18,895,1,3,15,1,Ingreso,Nueva contratación,0
+960,2025-11-14,895,1,3,15,3,Salida,Fin de contrato,0
+961,2023-03-04,896,1,2,11,1,Ingreso,Nueva contratación,0
+962,2024-11-13,896,1,2,11,3,Salida,Desvinculación,0
+963,2024-09-30,897,1,4,10,1,Ingreso,Nueva contratación,0
+964,2025-01-24,898,1,1,7,1,Ingreso,Nueva contratación,0
+965,2026-07-25,899,1,1,1,1,Ingreso,Nueva contratación,0
+966,2026-08-29,899,1,1,1,1,Salida,Desvinculación,0
+967,2025-12-22,900,1,5,19,1,Ingreso,Nueva contratación,0

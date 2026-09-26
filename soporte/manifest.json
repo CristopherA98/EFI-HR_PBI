@@ -1,0 +1,54 @@
+{
+  "dim_area": {
+    "filas": 6,
+    "sha256_csv": "423b0e0487f3f8c5ff757e9b35f4c9822e31459603d5f4fc4adcf702ebdbfcda"
+  },
+  "dim_cargo": {
+    "filas": 16,
+    "sha256_csv": "e2cdbf97a5321396481a304cf455b0cf4af3873f8f0b1caac287dd258bd27b58"
+  },
+  "dim_sucursal": {
+    "filas": 27,
+    "sha256_csv": "11f7e8f720d08ba25519a38ed999e73f68649c2830ff722db15ef55a9d5fc306"
+  },
+  "dim_antiguedad": {
+    "filas": 4,
+    "sha256_csv": "3ba95064bef20a8858b006ea34bbf7e5ca9dd003627b55df014c30ba9e0acc66"
+  },
+  "dim_calendario": {
+    "filas": 1461,
+    "sha256_csv": "403b8464054f6271510276d64405e358b339dc804e64caca58dab3fd728dad8b"
+  },
+  "dim_colaborador": {
+    "filas": 900,
+    "sha256_csv": "16505e6145c03da2b7d48b2ecb136772d24e9d9503635193656759ba3c87893d"
+  },
+  "fact_plantilla": {
+    "filas": 18961,
+    "sha256_csv": "d53b4ea4326446107d850629f78a74b3f62599693407bbe92f4aad1a4f9b6b4a"
+  },
+  "fact_movimientos": {
+    "filas": 967,
+    "sha256_csv": "52653e631e8559a0baf4ccfa692036611c7baf51bcb7a41e46da5f65a52554a7"
+  },
+  "fact_ausencias": {
+    "filas": 14572,
+    "sha256_csv": "1574a30c1165490c09633f0566f3a85799c8b5f9b8c41696c013314d0ca0f0ac"
+  },
+  "fact_contrataciones": {
+    "filas": 550,
+    "sha256_csv": "04ebe53f9a44fa23aa021ab226c33bd1046bd36c2e3dfc7ca2940d424b0717de"
+  },
+  "fact_capacitacion": {
+    "filas": 3565,
+    "sha256_csv": "ca3710b6e47be02bdc8906f18bdc75220e0ee40f5c6a1cac8193832e850bac18"
+  },
+  "raw_colaboradores": {
+    "filas": 912,
+    "sha256_csv": "a1d5bbbbc86dbabf1672027c9d7f02d719be7d7754aea8fa55d1eef08684de18"
+  },
+  "raw_plantilla": {
+    "filas": 761,
+    "sha256_csv": "ec1588978925779935d2bf28564a6de7931300915cb3b46f671d24eaf0245c02"
+  }
+}

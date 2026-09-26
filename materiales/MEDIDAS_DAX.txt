@@ -1,0 +1,205 @@
+FARMACIAS CÓNDOR — medidas para la edición Curso 20260925
+
+Crear cada medida por separado. Nombres de tablas idénticos en Excel y PostgreSQL.
+Los ejemplos usan comas como separador DAX; ajustar si la configuración regional exige punto y coma.
+Usar meses completos; plantilla contiene una observación por persona y mes, fechada el día 1.
+Filtrar el informe a 01/01/2023–31/08/2026. El calendario incluye 2026 completo.
+
+TABLA CALENDARIO (alternativa a importar dim_calendario, nunca usar ambas):
+
+dim_calendario =
+ADDCOLUMNS(
+    CALENDAR(DATE(2023,1,1), DATE(2026,12,31)),
+    "anio", YEAR([Date]),
+    "trimestre", "T" & QUARTER([Date]),
+    "mes", MONTH([Date]),
+    "mes_nombre", FORMAT([Date], "mmmm", "es-EC"),
+    "anio_mes", FORMAT([Date], "yyyy-MM"),
+    "inicio_mes", DATE(YEAR([Date]),MONTH([Date]),1),
+    "fin_mes", EOMONTH([Date],0),
+    "dia_semana", WEEKDAY([Date],2)
+)
+
+Renombrar Date a fecha, establecer tipo Fecha y marcar como tabla de fechas.
+Ordenar mes_nombre por mes. Desactivar fecha/hora automática para el archivo.
+
+COLUMNAS CALCULADAS (crear en la tabla indicada):
+
+-- dim_colaborador
+Nombre completo = dim_colaborador[nombres] & " " & dim_colaborador[apellidos]
+
+-- fact_contrataciones
+Dias cobertura = DATEDIFF(fact_contrataciones[fecha_requisicion], fact_contrataciones[fecha], DAY)
+
+-- fact_contrataciones
+Costo proceso = fact_contrataciones[costo_publicacion]
+    + fact_contrataciones[costo_evaluacion] + fact_contrataciones[costo_agencia]
+
+-- fact_plantilla; ejemplo de RELATED y del lado muchos a uno
+Cargo descriptivo = RELATED(dim_cargo[cargo])
+
+MEDIDAS BÁSICAS:
+
+Colaboradores historicos = DISTINCTCOUNT(dim_colaborador[id_colaborador])
+
+-- La anterior NO es headcount. Área/calendario no filtran hacia atrás la dimensión.
+
+Ingresos =
+COALESCE(
+    CALCULATE(COUNTROWS(fact_movimientos), fact_movimientos[tipo_movimiento] = "Ingreso"),
+    0
+)
+
+Salidas =
+COALESCE(
+    CALCULATE(COUNTROWS(fact_movimientos), fact_movimientos[tipo_movimiento] = "Salida"),
+    0
+)
+
+Salidas voluntarias =
+CALCULATE([Salidas], fact_movimientos[salida_voluntaria] = 1)
+
+-- Cada medida toma el último/primer mes seleccionado que esté dentro de cobertura.
+-- Quita solo el filtro temporal; conserva los filtros de área, cargo, género y ubicación.
+Headcount cierre =
+VAR Mes =
+    MAXX(
+        FILTER(VALUES(dim_calendario[inicio_mes]), dim_calendario[inicio_mes] <= DATE(2026,8,1)),
+        dim_calendario[inicio_mes]
+    )
+RETURN
+IF(
+    ISBLANK(Mes), BLANK(),
+    CALCULATE(
+        COALESCE(SUM(fact_plantilla[activo_cierre]),0),
+        REMOVEFILTERS(dim_calendario),
+        dim_calendario[fecha] = Mes
+    )
+)
+
+Headcount inicio =
+VAR Mes =
+    MINX(
+        FILTER(VALUES(dim_calendario[inicio_mes]), dim_calendario[inicio_mes] <= DATE(2026,8,1)),
+        dim_calendario[inicio_mes]
+    )
+RETURN
+IF(
+    ISBLANK(Mes), BLANK(),
+    CALCULATE(
+        COALESCE(SUM(fact_plantilla[activo_inicio]),0),
+        REMOVEFILTERS(dim_calendario),
+        dim_calendario[fecha] = Mes
+    )
+)
+
+Headcount promedio mensual =
+AVERAGEX(
+    FILTER(VALUES(dim_calendario[inicio_mes]), dim_calendario[inicio_mes] <= DATE(2026,8,1)),
+    DIVIDE([Headcount inicio] + [Headcount cierre], 2)
+)
+
+Rotacion = DIVIDE([Salidas], [Headcount promedio mensual])
+
+-- Formatear Rotacion como porcentaje. En cada mes: salidas/((inicio+cierre)/2).
+-- Para varios meses: salidas del periodo / promedio de los headcounts medios mensuales.
+-- No sumar tasas mensuales. Rotación 2026 con estos datos es enero-agosto, no año completo.
+
+Balance plantilla = [Headcount inicio] + [Ingresos] - [Salidas] - [Headcount cierre]
+
+-- Balance = 0 para periodos contiguos, sin filtro de antigüedad.
+-- Por antigüedad, personas cambian de tramo entre observaciones: no es una cohorte fija.
+
+Horas programadas = SUM(fact_plantilla[horas_programadas])
+
+Horas ausencia = SUM(fact_ausencias[horas_ausencia])
+
+Indice ausentismo = DIVIDE([Horas ausencia], [Horas programadas])
+
+-- Excluye vacaciones. Numerador: ausencia en turnos; denominador: horas programadas.
+-- Analizar meses completos. Los días de ausencias y la plantilla mensual tienen distinto grano.
+
+Contrataciones = COUNTROWS(fact_contrataciones)
+
+Costo contratacion total =
+SUMX(
+    fact_contrataciones,
+    fact_contrataciones[costo_publicacion]
+      + fact_contrataciones[costo_evaluacion]
+      + fact_contrataciones[costo_agencia]
+)
+
+Costo por contratacion = DIVIDE([Costo contratacion total], [Contrataciones])
+
+-- Todos los costos pertenecen a procesos cubiertos. No hay procesos abiertos/cancelados.
+
+Dias cobertura promedio = AVERAGE(fact_contrataciones[Dias cobertura])
+
+Costo personal simulado = SUM(fact_plantilla[pago_base]) + SUM(fact_plantilla[costo_extra])
+
+Sueldo promedio cierre =
+VAR Mes = MAXX(
+    FILTER(VALUES(dim_calendario[inicio_mes]), dim_calendario[inicio_mes] <= DATE(2026,8,1)),
+    dim_calendario[inicio_mes]
+)
+RETURN IF(
+    ISBLANK(Mes), BLANK(),
+    CALCULATE(
+        AVERAGE(fact_plantilla[sueldo_mensual]),
+        REMOVEFILTERS(dim_calendario), dim_calendario[fecha] = Mes,
+        fact_plantilla[activo_cierre] = 1
+    )
+)
+
+Horas capacitacion = SUM(fact_capacitacion[horas])
+
+Personas capacitadas = DISTINCTCOUNT(fact_capacitacion[id_colaborador])
+
+Nota promedio = AVERAGE(fact_capacitacion[calificacion])
+
+-- AVERAGE omite nulos pendientes. No convertir pendientes en cero.
+
+INTELIGENCIA DE TIEMPO:
+
+Headcount mes anterior =
+CALCULATE([Headcount cierre], DATEADD(dim_calendario[fecha], -1, MONTH))
+
+Variacion headcount mensual =
+DIVIDE([Headcount cierre] - [Headcount mes anterior], [Headcount mes anterior])
+
+Headcount anio anterior =
+CALCULATE([Headcount cierre], SAMEPERIODLASTYEAR(dim_calendario[fecha]))
+
+Variacion headcount anual =
+DIVIDE([Headcount cierre] - [Headcount anio anterior], [Headcount anio anterior])
+
+Ingresos acumulados = CALCULATE([Ingresos], DATESYTD(dim_calendario[fecha]))
+
+Salidas acumuladas = CALCULATE([Salidas], DATESYTD(dim_calendario[fecha]))
+
+Costo personal acumulado = CALCULATE([Costo personal simulado], DATESYTD(dim_calendario[fecha]))
+
+Rotacion anio anterior =
+CALCULATE([Rotacion], SAMEPERIODLASTYEAR(dim_calendario[fecha]))
+
+Rotacion diferencia pp = 100 * ([Rotacion] - [Rotacion anio anterior])
+
+-- Diferencia pp se muestra como número, NO con formato porcentaje.
+-- No acumular headcount: es un stock. Acumular ingresos, salidas y costos: son flujos.
+
+CONTEXTO DE FILTRO:
+
+Participacion headcount area =
+DIVIDE([Headcount cierre], CALCULATE([Headcount cierre], REMOVEFILTERS(dim_area)))
+
+-- Conserva mes, cargo, género, ubicación y antigüedad; quita solo área del denominador.
+
+CONTROL AGOSTO 2026 (sin otros filtros):
+Headcount inicio = 486; ingresos = 11; salidas = 14; headcount cierre = 483.
+Headcount promedio = 484.5; rotación = 2.8895768834%.
+Horas programadas = 86112; horas ausencia = 2660; índice = 3.0890003716%.
+Contrataciones = 11; costo total = USD 1783.03; costo unitario = USD 162.09363636.
+Costo personal simulado = USD 511116.36.
+
+Las definiciones y agregaciones se comprobaron con Python, Excel y PostgreSQL.
+Las expresiones DAX deben ejecutarse en Power BI; no se generó un PBIX.

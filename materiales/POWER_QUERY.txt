@@ -1,0 +1,81 @@
+FARMACIAS CÓNDOR — ejemplos M
+Crear funciones y consultas por separado en el Editor avanzado.
+Usar los nombres exactos de las tablas del libro; reemplazar la ruta del ejemplo.
+
+FUNCIÓN fxFechaMixta:
+
+(valor as any) as nullable date =>
+    if valor = null or valor = "" then null
+    else if Value.Is(valor, type date) or Value.Is(valor, type datetime) then Date.From(valor)
+    else
+        let
+            Texto = Text.Trim(Text.From(valor)),
+            ISO = try Date.FromText(Texto, [Format="yyyy-MM-dd", Culture="en-US"])
+        in
+            if not ISO[HasError] then ISO[Value]
+            else Date.FromText(Texto, [Format="dd/MM/yyyy", Culture="es-EC"])
+
+CONSULTA colaboradores_limpios (desde Excel):
+
+let
+    Origen = Excel.Workbook(File.Contents("C:\CursoPowerBI\Farmacias_Condor_Curso.xlsx"), null, true),
+    Datos = Origen{[Item="raw_colaboradores",Kind="Table"]}[Data],
+    SinDuplicados = Table.Distinct(Datos),
+    TextoLimpio = Table.TransformColumns(SinDuplicados, {
+        {"nombres", each Text.Trim(Text.Clean(_)), type text},
+        {"apellidos", each Text.Trim(Text.Clean(_)), type text},
+        {"genero", each
+            if _ = null then "No informado"
+            else if Text.Lower(Text.Trim(_)) = "femenino" then "Femenino"
+            else if Text.Lower(Text.Trim(_)) = "masculino" then "Masculino"
+            else if Text.Lower(Text.Trim(_)) = "no informado" then "No informado"
+            else error "Género fuera del catálogo", type text}
+    }),
+    Fechas = Table.TransformColumns(TextoLimpio, {
+        {"fecha_nacimiento", fxFechaMixta, type date},
+        {"fecha_ingreso", fxFechaMixta, type date},
+        {"fecha_salida", fxFechaMixta, type nullable date}
+    }),
+    Tipos = Table.TransformColumnTypes(Fechas, {{"id_colaborador", Int64.Type}, {"codigo", type text}, {"nivel_educativo", type text}, {"tipo_contrato", type text}})
+in
+    Tipos
+
+La salida debe coincidir con dim_colaborador: 900 filas, 483 fechas de salida vacías.
+Opcional: columna Nombre completo con [nombres] & " " & [apellidos].
+
+FUNCIÓN fxNumeroMixtoExcel (para raw_plantilla del Excel):
+
+(valor as any) as nullable number =>
+    if valor = null then null
+    else if Value.Is(valor, type number) then valor
+    else Number.FromText(Text.Trim(Text.From(valor)), "es-EC")
+
+Si lees raw_plantilla desde CSV o PostgreSQL, todos los valores raw son texto.
+Usa cultura es-EC cuando el texto contiene coma, y en-US cuando usa punto decimal:
+
+(valor as any) as nullable number =>
+    if valor = null or valor = "" then null
+    else if Value.Is(valor, type number) then valor
+    else let Texto = Text.Trim(Text.From(valor))
+    in Number.FromText(Texto, if Text.Contains(Texto, ",") then "es-EC" else "en-US")
+
+UNIÓN IZQUIERDA PARA EJERCICIO (consultas fact_plantilla y dim_cargo existentes):
+
+let
+    Combinada = Table.NestedJoin(fact_plantilla, {"id_cargo"}, dim_cargo, {"id_cargo"}, "Cargo", JoinKind.LeftOuter),
+    Expandida = Table.ExpandTableColumn(Combinada, "Cargo", {"cargo", "nivel"}, {"cargo", "nivel"})
+in
+    Expandida
+
+Verifica que sigue habiendo 18961 filas. Deshabilita su carga si usas el esquema estrella.
+
+ORIGEN POSTGRESQL (tras cargar el esquema condor_curso):
+
+let
+    Origen = PostgreSQL.Database("TU_HOST.proxy.rlwy.net:TU_PUERTO", "railway"),
+    Datos = Origen{[Schema="condor_curso",Item="dim_sucursal"]}[Data]
+in
+    Datos
+
+No incluyas contraseñas en código M. Power BI las solicita en la configuración del origen.
+Si el servicio cambia de dominio/puerto, actualiza el servidor. El certificado SSL se configura aparte.

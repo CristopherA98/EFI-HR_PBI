@@ -1,0 +1,12 @@
+.DS_Store
+node_modules/
+*.pbix
+*.ndjson
+*.log
+.env
+postgresql/conexion.local
+Publicar_en_GitHub.command
+soporte/previews/
+soporte/pg_export/
+soporte/contacto_*.png
+soporte/recrear_pg_local.sql

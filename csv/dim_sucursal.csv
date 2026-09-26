@@ -1,0 +1,28 @@
+﻿id_sucursal,sucursal,ciudad,provincia,region,tipo_centro,latitud,longitud,fecha_apertura
+1,Cóndor Quito Centro,Quito,Pichincha,Sierra,Farmacia,-0.1807,-78.4678,2017-01-01
+2,Cóndor Quito Norte,Quito,Pichincha,Sierra,Farmacia,-0.1807,-78.4678,2017-01-01
+3,Cóndor Guayaquil Centro,Guayaquil,Guayas,Costa,Farmacia,-2.1894,-79.8891,2017-01-01
+4,Cóndor Guayaquil Norte,Guayaquil,Guayas,Costa,Farmacia,-2.1894,-79.8891,2017-01-01
+5,Cóndor Cuenca Centro,Cuenca,Azuay,Sierra,Farmacia,-2.9001,-79.0059,2017-01-01
+6,Cóndor Cuenca Norte,Cuenca,Azuay,Sierra,Farmacia,-2.9001,-79.0059,2017-01-01
+7,Cóndor Manta Centro,Manta,Manabí,Costa,Farmacia,-0.9677,-80.7089,2017-01-01
+8,Cóndor Manta Norte,Manta,Manabí,Costa,Farmacia,-0.9677,-80.7089,2017-01-01
+9,Cóndor Loja Centro,Loja,Loja,Sierra,Farmacia,-3.9931,-79.2042,2017-01-01
+10,Cóndor Loja Norte,Loja,Loja,Sierra,Farmacia,-3.9931,-79.2042,2017-01-01
+11,Cóndor Ambato Centro,Ambato,Tungurahua,Sierra,Farmacia,-1.2491,-78.6168,2017-01-01
+12,Cóndor Ambato Norte,Ambato,Tungurahua,Sierra,Farmacia,-1.2491,-78.6168,2017-01-01
+13,Cóndor Machala Centro,Machala,El Oro,Costa,Farmacia,-3.2581,-79.9554,2017-01-01
+14,Cóndor Machala Norte,Machala,El Oro,Costa,Farmacia,-3.2581,-79.9554,2017-01-01
+15,Cóndor Esmeraldas Centro,Esmeraldas,Esmeraldas,Costa,Farmacia,0.9682,-79.6517,2017-01-01
+16,Cóndor Esmeraldas Norte,Esmeraldas,Esmeraldas,Costa,Farmacia,0.9682,-79.6517,2017-01-01
+17,Cóndor Tena Centro,Tena,Napo,Amazonía,Farmacia,-0.9938,-77.8129,2017-01-01
+18,Cóndor Tena Norte,Tena,Napo,Amazonía,Farmacia,-0.9938,-77.8129,2017-01-01
+19,Cóndor Nueva Loja Centro,Nueva Loja,Sucumbíos,Amazonía,Farmacia,0.0847,-76.8828,2017-01-01
+20,Cóndor Nueva Loja Norte,Nueva Loja,Sucumbíos,Amazonía,Farmacia,0.0847,-76.8828,2017-01-01
+21,Cóndor Puerto Ayora Centro,Puerto Ayora,Galápagos,Insular,Farmacia,-0.743,-90.313,2017-01-01
+22,Cóndor Puerto Ayora Norte,Puerto Ayora,Galápagos,Insular,Farmacia,-0.743,-90.313,2017-01-01
+23,Cóndor Riobamba Centro,Riobamba,Chimborazo,Sierra,Farmacia,-1.6636,-78.6546,2017-01-01
+24,Cóndor Riobamba Norte,Riobamba,Chimborazo,Sierra,Farmacia,-1.6636,-78.6546,2017-01-01
+25,CD Quito,Quito,Pichincha,Sierra,CD,-0.1807,-78.4678,2017-01-01
+26,CD Guayaquil,Guayaquil,Guayas,Costa,CD,-2.1894,-79.8891,2017-01-01
+27,Matriz Quito,Quito,Pichincha,Sierra,Matriz,-0.1807,-78.4678,2017-01-01

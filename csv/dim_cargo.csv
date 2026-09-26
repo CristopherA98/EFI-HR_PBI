@@ -1,0 +1,17 @@
+﻿id_cargo,cargo,nivel,familia
+1,Auxiliar de farmacia,Operativo,Farmacia
+2,Cajero,Operativo,Farmacia
+3,Químico farmacéutico,Profesional,Farmacia
+4,Jefe de farmacia,Jefatura,Farmacia
+5,Asesor de servicio,Operativo,Farmacia
+6,Operario de bodega,Operativo,Logística
+7,Chofer repartidor,Operativo,Logística
+8,Supervisor de distribución,Jefatura,Logística
+9,Analista de talento humano,Profesional,Administración
+10,Jefe de talento humano,Jefatura,Administración
+11,Analista contable,Profesional,Administración
+12,Jefe financiero,Jefatura,Administración
+13,Técnico de soporte,Profesional,Tecnología
+14,Analista de datos,Profesional,Tecnología
+15,Analista comercial,Profesional,Comercial
+16,Agente de servicio telefónico,Operativo,Comercial

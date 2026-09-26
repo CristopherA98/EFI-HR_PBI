@@ -1,0 +1,5 @@
+﻿id_antiguedad,rango_antiguedad,orden
+1,Menos de 90 días,1
+2,90 a 364 días,2
+3,365 a 1094 días,3
+4,1095 días o más,4
